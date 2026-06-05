@@ -1,0 +1,81 @@
+{
+  "role_id": "data_analyst",
+  "display_name": "Data Analyst",
+  "version": "1.0",
+  "required_skills": [
+    {
+      "skill_id": "spreadsheet_sql_basics",
+      "skill_name": "Spreadsheet and SQL Basics",
+      "priority": "high"
+    },
+    {
+      "skill_id": "data_cleaning",
+      "skill_name": "Data Cleaning",
+      "priority": "high"
+    },
+    {
+      "skill_id": "exploratory_analysis",
+      "skill_name": "Exploratory Analysis",
+      "priority": "medium"
+    },
+    {
+      "skill_id": "visualization_storytelling",
+      "skill_name": "Visualization and Storytelling",
+      "priority": "medium"
+    },
+    {
+      "skill_id": "metric_definition",
+      "skill_name": "Metric Definition Basics",
+      "priority": "low"
+    }
+  ],
+  "beginner_tasks": [
+    {
+      "task_id": "da_task_01",
+      "title": "Bersihkan Dataset Penjualan Mini",
+      "description": "Perbaiki missing value, duplikasi, dan format tanggal pada dataset kecil.",
+      "focus_skills": ["data_cleaning", "spreadsheet_sql_basics"],
+      "expected_artifacts": ["cleaned_dataset.csv", "cleaning_log.md"]
+    },
+    {
+      "task_id": "da_task_02",
+      "title": "Jawab 5 Pertanyaan Bisnis Dasar",
+      "description": "Gunakan query sederhana atau spreadsheet untuk menjawab pertanyaan KPI dasar.",
+      "focus_skills": ["spreadsheet_sql_basics", "exploratory_analysis"],
+      "expected_artifacts": ["analysis_queries.sql", "answers_summary.md"]
+    },
+    {
+      "task_id": "da_task_03",
+      "title": "Dashboard Satu Halaman",
+      "description": "Buat visual ringkas yang menjelaskan tren utama dan rekomendasi awal.",
+      "focus_skills": ["visualization_storytelling", "metric_definition"],
+      "expected_artifacts": ["dashboard_screenshot.png", "insight_notes.md"]
+    }
+  ],
+  "task_rubric": [
+    {
+      "criterion_id": "logic_accuracy",
+      "criterion": "Akurasi Logika",
+      "description": "Perhitungan dan filter data konsisten dengan pertanyaan.",
+      "score_scale": {"min": 0, "max": 2}
+    },
+    {
+      "criterion_id": "data_quality_checks",
+      "criterion": "Cek Kualitas Data",
+      "description": "Ada bukti pemeriksaan missing/duplikasi/outlier sederhana.",
+      "score_scale": {"min": 0, "max": 2}
+    },
+    {
+      "criterion_id": "insight_relevance",
+      "criterion": "Relevansi Insight",
+      "description": "Insight menjawab masalah bisnis, bukan hanya deskripsi angka.",
+      "score_scale": {"min": 0, "max": 2}
+    },
+    {
+      "criterion_id": "communication_clarity",
+      "criterion": "Kejelasan Komunikasi",
+      "description": "Hasil disampaikan ringkas, mudah dipahami non-teknis.",
+      "score_scale": {"min": 0, "max": 2}
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "rubric_version": "task_rubric_v1",
+  "dimensions": [
+    {
+      "id": "correctness",
+      "description": "Sejauh mana submission menjawab inti tugas yang diminta."
+    },
+    {
+      "id": "completeness",
+      "description": "Apakah komponen penting tugas sudah hadir secara cukup untuk level pemula."
+    },
+    {
+      "id": "clarity",
+      "description": "Keterbacaan penjelasan/kode agar reviewer mudah memahami maksud user."
+    },
+    {
+      "id": "technical_accuracy",
+      "description": "Ketepatan istilah teknis dan konsep dasar agar tidak menyesatkan."
+    },
+    {
+      "id": "best_practice",
+      "description": "Adanya praktik aman/baik yang relevan untuk beginner scope."
+    }
+  ],
+  "tasks": [
+    {
+      "task_id": "cybersecurity_basic_nmap_explanation",
+      "role": "cybersecurity",
+      "title": "Basic Nmap Explanation",
+      "task_prompt": "Jelaskan fungsi dasar nmap, contoh penggunaan sederhana, dan batasan etis penggunaannya.",
+      "dimension_weights": {
+        "correctness": 1.0,
+        "completeness": 1.0,
+        "clarity": 1.0,
+        "technical_accuracy": 1.2,
+        "best_practice": 1.2
+      },
+      "evaluation_hints": {
+        "must_cover": [
+          "apa itu nmap",
+          "contoh command sederhana",
+          "izin/otorisasi sebelum scan"
+        ]
+      }
+    },
+    {
+      "task_id": "frontend_simple_html_dashboard",
+      "role": "frontend",
+      "title": "Simple HTML Dashboard Submission",
+      "task_prompt": "Kirim HTML sederhana untuk dashboard dengan struktur halaman jelas dan elemen data dasar.",
+      "dimension_weights": {
+        "correctness": 1.0,
+        "completeness": 1.1,
+        "clarity": 1.0,
+        "technical_accuracy": 1.0,
+        "best_practice": 1.1
+      },
+      "evaluation_hints": {
+        "must_cover": [
+          "struktur html dasar",
+          "elemen dashboard (kartu/tabel/list)",
+          "praktik dasar aksesibilitas atau responsif"
+        ]
+      }
+    }
+  ]
+}

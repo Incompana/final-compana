@@ -1,0 +1,33 @@
+{
+  "target_role": [
+    "cybersecurity",
+    "frontend",
+    "backend",
+    "data_analyst",
+    "uiux",
+    "unclear"
+  ],
+  "problem_category": [
+    "beginner_lost",
+    "direction_confused",
+    "skill_gap",
+    "overwhelmed",
+    "confidence_issue",
+    "unclear"
+  ],
+  "current_level": [
+    "zero",
+    "basic",
+    "intermediate",
+    "unclear"
+  ],
+  "blocker_type": [
+    "no_roadmap",
+    "no_portfolio",
+    "no_foundation",
+    "no_time",
+    "no_confidence",
+    "too_many_options",
+    "unclear"
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "role_id": "cybersecurity",
+  "display_name": "Cybersecurity",
+  "version": "1.0",
+  "required_skills": [
+    {
+      "skill_id": "security_fundamentals",
+      "skill_name": "Security Fundamentals",
+      "priority": "high"
+    },
+    {
+      "skill_id": "networking_basics",
+      "skill_name": "Networking Basics",
+      "priority": "high"
+    },
+    {
+      "skill_id": "linux_cli_basics",
+      "skill_name": "Linux CLI Basics",
+      "priority": "medium"
+    },
+    {
+      "skill_id": "vulnerability_assessment_basics",
+      "skill_name": "Vulnerability Assessment Basics",
+      "priority": "medium"
+    },
+    {
+      "skill_id": "incident_reporting",
+      "skill_name": "Incident Reporting",
+      "priority": "low"
+    }
+  ],
+  "beginner_tasks": [
+    {
+      "task_id": "cyb_task_01",
+      "title": "Buat Checklist Hardening Dasar Laptop Pribadi",
+      "description": "Audit setelan dasar keamanan (password, update OS, 2FA, antivirus, firewall) dan tulis rekomendasi perbaikan.",
+      "focus_skills": ["security_fundamentals", "incident_reporting"],
+      "expected_artifacts": ["security_checklist.md", "risk_summary.md"]
+    },
+    {
+      "task_id": "cyb_task_02",
+      "title": "Analisis Log Login Sederhana",
+      "description": "Gunakan contoh log autentikasi dan identifikasi pola login gagal, IP mencurigakan, dan jam akses tidak normal.",
+      "focus_skills": ["networking_basics", "vulnerability_assessment_basics"],
+      "expected_artifacts": ["log_analysis_notes.md", "alert_candidates.csv"]
+    },
+    {
+      "task_id": "cyb_task_03",
+      "title": "Tulis Incident Report Mini",
+      "description": "Simulasikan satu kejadian keamanan dan tulis laporan ringkas berisi konteks, dampak, dan tindakan lanjutan.",
+      "focus_skills": ["incident_reporting", "security_fundamentals"],
+      "expected_artifacts": ["incident_report.md"]
+    }
+  ],
+  "task_rubric": [
+    {
+      "criterion_id": "technical_accuracy",
+      "criterion": "Ketepatan Teknis",
+      "description": "Temuan dan rekomendasi tidak menyesatkan secara teknis.",
+      "score_scale": {"min": 0, "max": 2}
+    },
+    {
+      "criterion_id": "risk_prioritization",
+      "criterion": "Prioritas Risiko",
+      "description": "Risiko utama dibedakan dari risiko minor dengan alasan yang jelas.",
+      "score_scale": {"min": 0, "max": 2}
+    },
+    {
+      "criterion_id": "evidence_usage",
+      "criterion": "Penggunaan Bukti",
+      "description": "Analisis didukung data observasi/log, bukan opini umum.",
+      "score_scale": {"min": 0, "max": 2}
+    },
+    {
+      "criterion_id": "actionability",
+      "criterion": "Aksi Lanjutan",
+      "description": "Output berisi langkah tindak lanjut yang realistis untuk pemula.",
+      "score_scale": {"min": 0, "max": 2}
+    }
+  ]
+}

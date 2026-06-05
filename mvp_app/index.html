@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI/ML Learning Path MVP</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header>
+        <h1>Learning Path Advisor MVP</h1>
+        <p>Masukkan input belajar, jawab assessment, lalu lihat rekomendasi path.</p>
+      </header>
+
+      <section class="card">
+        <h2>Input User</h2>
+        <textarea
+          id="userInput"
+          placeholder="Contoh: Aku tertarik frontend, sudah bisa HTML CSS, tapi bingung project apa yang cocok."
+        ></textarea>
+        <button id="runButton">Mulai Assessment</button>
+        <p class="help-text" id="apiHelpText"></p>
+        <div id="error" class="error-message"></div>
+      </section>
+
+      <section id="results" class="results hidden">
+        <div class="card">
+          <h2>Pretext Analysis</h2>
+          <pre id="pretextResult"></pre>
+        </div>
+        <div class="card">
+          <h2>Assessment Questions</h2>
+          <form id="assessmentForm">
+            <div id="assessmentQuestions"></div>
+            <button id="submitAssessmentButton" class="hidden" type="submit">
+              Submit Jawaban
+            </button>
+          </form>
+        </div>
+        <div class="card">
+          <h2>Scored Answers</h2>
+          <pre id="scoredAnswers"></pre>
+        </div>
+        <div class="card">
+          <h2>Validated Context</h2>
+          <pre id="validatedContext"></pre>
+        </div>
+        <div class="card">
+          <h2>Skill Gap</h2>
+          <pre id="skillGap"></pre>
+        </div>
+        <div class="card">
+          <h2>Recommended Task</h2>
+          <pre id="actionPlan"></pre>
+        </div>
+        <div class="card">
+          <h2>Submit Project Task</h2>
+          <form id="projectSubmissionForm">
+            <label class="field-label" for="taskSelect">Task</label>
+            <select id="taskSelect" disabled></select>
+            <label class="field-label" for="submissionText">Submission</label>
+            <textarea
+              id="submissionText"
+              class="answer-textarea"
+              placeholder="Jelaskan hasil project, potongan implementasi, metrik, insight, atau langkah yang Anda kerjakan."
+            ></textarea>
+            <label class="field-label" for="submissionFiles">File atau link pendukung</label>
+            <textarea
+              id="submissionFiles"
+              class="supporting-files"
+              placeholder="Satu file/link per baris, misalnya screenshot.png atau https://github.com/..."
+            ></textarea>
+            <button id="submitProjectButton" type="submit" disabled>
+              Submit Project
+            </button>
+          </form>
+        </div>
+        <div class="card">
+          <h2>Project Evaluation</h2>
+          <pre id="projectEvaluation"></pre>
+        </div>
+      </section>
+    </div>
+
+    <script src="config.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

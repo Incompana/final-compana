@@ -1,0 +1,73 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://compana.local/schemas/label-taxonomy-v1.json",
+  "title": "Compana Label Taxonomy v1",
+  "description": "Single-label classification output for Compana pretext analysis.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "target_role",
+    "problem_category",
+    "current_level",
+    "blocker_type"
+  ],
+  "properties": {
+    "target_role": {
+      "type": "string",
+      "enum": [
+        "cybersecurity",
+        "frontend",
+        "backend",
+        "data_analyst",
+        "uiux",
+        "unclear"
+      ]
+    },
+    "problem_category": {
+      "type": "string",
+      "enum": [
+        "beginner_lost",
+        "direction_confused",
+        "skill_gap",
+        "overwhelmed",
+        "confidence_issue",
+        "unclear"
+      ]
+    },
+    "current_level": {
+      "type": "string",
+      "enum": [
+        "zero",
+        "basic",
+        "intermediate",
+        "unclear"
+      ]
+    },
+    "blocker_type": {
+      "type": "string",
+      "enum": [
+        "no_roadmap",
+        "no_portfolio",
+        "no_foundation",
+        "no_time",
+        "no_confidence",
+        "too_many_options",
+        "unclear"
+      ]
+    }
+  },
+  "examples": [
+    {
+      "target_role": "frontend",
+      "problem_category": "skill_gap",
+      "current_level": "basic",
+      "blocker_type": "no_portfolio"
+    },
+    {
+      "target_role": "unclear",
+      "problem_category": "direction_confused",
+      "current_level": "zero",
+      "blocker_type": "too_many_options"
+    }
+  ]
+}

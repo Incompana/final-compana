@@ -1,0 +1,25 @@
+# Dataset schema placeholder for Compana AI/ML.
+# Keep this file lightweight and update as real datasets are added.
+
+version: 0.1
+dataset_name: pretext_classification_dataset
+description: >
+  Training/evaluation records for pretext understanding and problem classification.
+
+record_contract:
+  id: string
+  text: string
+  target_role: enum
+  problem_category: enum
+  current_level: enum
+  blocker_type: enum
+  source: string
+  split: enum  # train | dev | test
+  notes: string
+
+quality_rules:
+  min_text_length_chars: 10
+  allow_empty_notes: true
+  require_all_label_fields: true
+  deduplicate_by:
+    - text

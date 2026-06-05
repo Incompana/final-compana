@@ -1,0 +1,187 @@
+{
+  "cybersecurity_beginner": {
+    "planner_version": "action_plan_rule_v1",
+    "input_snapshot": {
+      "target_role": "cybersecurity",
+      "problem_category": "beginner_lost",
+      "current_level": "zero",
+      "blocker_type": "no_foundation",
+      "gap_skills": [
+        "security_fundamentals",
+        "networking_basics"
+      ]
+    },
+    "clarification_needed": false,
+    "title": "Rencana Aksi 4 Minggu - Cybersecurity",
+    "steps": [
+      {
+        "order": 1,
+        "title": "Tetapkan Outcome Minggu Ini",
+        "task_suggestion": "Tetapkan satu output kecil yang relevan dengan role cybersecurity, lalu pecah menjadi 3 tugas harian yang realistis.",
+        "expected_output": "Rencana 7 hari berisi output utama + checklist tugas harian.",
+        "success_criteria": "Minimal 3 sesi kerja terjadwal dengan target output yang jelas."
+      },
+      {
+        "order": 2,
+        "title": "Bangun Fondasi Dasar",
+        "task_suggestion": "Selesaikan 2 latihan dasar Cybersecurity dari materi pemula dan tulis catatan konsep kunci.",
+        "expected_output": "2 file latihan dasar + catatan ringkas konsep inti.",
+        "success_criteria": "Kamu bisa menjelaskan kembali konsep dasar tanpa membaca ulang materi."
+      },
+      {
+        "order": 3,
+        "title": "Perbaiki Titik Fondasi Paling Lemah",
+        "task_suggestion": "Pilih 1 konsep dasar yang belum paham, pelajari 45 menit, lalu praktikkan langsung dalam latihan kecil.",
+        "expected_output": "Ringkasan konsep + 1 latihan yang menerapkan konsep tersebut.",
+        "success_criteria": "Latihan selesai dan kamu bisa menjelaskan cara kerjanya dengan bahasa sendiri."
+      },
+      {
+        "order": 4,
+        "title": "Tutup Gap Skill: Security Fundamentals",
+        "task_suggestion": "Kerjakan task 'Buat Checklist Hardening Dasar Laptop Pribadi' dan fokus pada skill Security Fundamentals.",
+        "expected_output": "Artifact: security_checklist.md, risk_summary.md.",
+        "success_criteria": "Artifact selesai dan dapat dijelaskan keputusan implementasinya."
+      },
+      {
+        "order": 5,
+        "title": "Tutup Gap Skill: Networking Basics",
+        "task_suggestion": "Kerjakan task 'Analisis Log Login Sederhana' dan fokus pada skill Networking Basics.",
+        "expected_output": "Artifact: log_analysis_notes.md, alert_candidates.csv.",
+        "success_criteria": "Artifact selesai dan dapat dijelaskan keputusan implementasinya."
+      },
+      {
+        "order": 6,
+        "title": "Review Progres dan Tetapkan Langkah Lanjut",
+        "task_suggestion": "Evaluasi langkah yang selesai vs rencana, lalu pilih 1 prioritas utama untuk minggu berikutnya.",
+        "expected_output": "Catatan review mingguan + prioritas tunggal minggu depan.",
+        "success_criteria": "Ada keputusan jelas tentang langkah lanjut tanpa menambah target berlebihan."
+      }
+    ],
+    "rationale": [
+      "Plan uses deterministic templates aligned to role, level, and blocker.",
+      "Gap skills are converted into targeted practice steps (max 2) to keep scope realistic.",
+      "Plan always ends with a review step to keep weekly iteration consistent."
+    ],
+    "markdown_view": "# Rencana Aksi 4 Minggu - Cybersecurity\n\nInput ringkas:\n- target_role=cybersecurity, problem_category=beginner_lost, current_level=zero, blocker_type=no_foundation\n\n## Steps\n1. **Tetapkan Outcome Minggu Ini**\nTask suggestion: Tetapkan satu output kecil yang relevan dengan role cybersecurity, lalu pecah menjadi 3 tugas harian yang realistis.\nExpected output: Rencana 7 hari berisi output utama + checklist tugas harian.\nSuccess criteria: Minimal 3 sesi kerja terjadwal dengan target output yang jelas.\n\n2. **Bangun Fondasi Dasar**\nTask suggestion: Selesaikan 2 latihan dasar Cybersecurity dari materi pemula dan tulis catatan konsep kunci.\nExpected output: 2 file latihan dasar + catatan ringkas konsep inti.\nSuccess criteria: Kamu bisa menjelaskan kembali konsep dasar tanpa membaca ulang materi.\n\n3. **Perbaiki Titik Fondasi Paling Lemah**\nTask suggestion: Pilih 1 konsep dasar yang belum paham, pelajari 45 menit, lalu praktikkan langsung dalam latihan kecil.\nExpected output: Ringkasan konsep + 1 latihan yang menerapkan konsep tersebut.\nSuccess criteria: Latihan selesai dan kamu bisa menjelaskan cara kerjanya dengan bahasa sendiri.\n\n4. **Tutup Gap Skill: Security Fundamentals**\nTask suggestion: Kerjakan task 'Buat Checklist Hardening Dasar Laptop Pribadi' dan fokus pada skill Security Fundamentals.\nExpected output: Artifact: security_checklist.md, risk_summary.md.\nSuccess criteria: Artifact selesai dan dapat dijelaskan keputusan implementasinya.\n\n5. **Tutup Gap Skill: Networking Basics**\nTask suggestion: Kerjakan task 'Analisis Log Login Sederhana' dan fokus pada skill Networking Basics.\nExpected output: Artifact: log_analysis_notes.md, alert_candidates.csv.\nSuccess criteria: Artifact selesai dan dapat dijelaskan keputusan implementasinya.\n\n6. **Review Progres dan Tetapkan Langkah Lanjut**\nTask suggestion: Evaluasi langkah yang selesai vs rencana, lalu pilih 1 prioritas utama untuk minggu berikutnya.\nExpected output: Catatan review mingguan + prioritas tunggal minggu depan.\nSuccess criteria: Ada keputusan jelas tentang langkah lanjut tanpa menambah target berlebihan.\n\n## Rationale\n- Plan uses deterministic templates aligned to role, level, and blocker.\n- Gap skills are converted into targeted practice steps (max 2) to keep scope realistic.\n- Plan always ends with a review step to keep weekly iteration consistent."
+  },
+  "frontend_no_portfolio": {
+    "planner_version": "action_plan_rule_v1",
+    "input_snapshot": {
+      "target_role": "frontend",
+      "problem_category": "skill_gap",
+      "current_level": "basic",
+      "blocker_type": "no_portfolio",
+      "gap_skills": [
+        "react_component_basics",
+        "api_fetch_state"
+      ]
+    },
+    "clarification_needed": false,
+    "title": "Rencana Aksi 4 Minggu - Frontend",
+    "steps": [
+      {
+        "order": 1,
+        "title": "Tetapkan Outcome Minggu Ini",
+        "task_suggestion": "Tetapkan satu output kecil yang relevan dengan role frontend, lalu pecah menjadi 3 tugas harian yang realistis.",
+        "expected_output": "Rencana 7 hari berisi output utama + checklist tugas harian.",
+        "success_criteria": "Minimal 3 sesi kerja terjadwal dengan target output yang jelas."
+      },
+      {
+        "order": 2,
+        "title": "Perkuat Fondasi yang Belum Stabil",
+        "task_suggestion": "Ulang 1 topik dasar yang sering bikin mentok, lalu praktikkan pada mini-task berdurasi <90 menit.",
+        "expected_output": "Satu mini-task selesai beserta catatan kendala dan solusi.",
+        "success_criteria": "Mini-task selesai end-to-end dan tidak lagi tersendat di titik yang sama."
+      },
+      {
+        "order": 3,
+        "title": "Bangun Bukti Portfolio Pertama",
+        "task_suggestion": "Pilih 1 mini-project Frontend yang bisa selesai dalam 5-7 hari, lalu publikasi di GitHub/Notion.",
+        "expected_output": "1 link project publik + README singkat konteks, fitur, dan hasil.",
+        "success_criteria": "Project bisa diakses publik dan menjelaskan kontribusi kamu secara jelas."
+      },
+      {
+        "order": 4,
+        "title": "Tutup Gap Skill: React Component Basics",
+        "task_suggestion": "Kerjakan task 'Komponen React Card Reusable' dan fokus pada skill React Component Basics.",
+        "expected_output": "Artifact: Card.jsx, App.jsx.",
+        "success_criteria": "Artifact selesai dan dapat dijelaskan keputusan implementasinya."
+      },
+      {
+        "order": 5,
+        "title": "Tutup Gap Skill: Api Fetch State",
+        "task_suggestion": "Kerjakan task 'Daftar Data dari API Publik' dan fokus pada skill Api Fetch State.",
+        "expected_output": "Artifact: DataList.jsx, api_notes.md.",
+        "success_criteria": "Artifact selesai dan dapat dijelaskan keputusan implementasinya."
+      },
+      {
+        "order": 6,
+        "title": "Review Progres dan Tetapkan Langkah Lanjut",
+        "task_suggestion": "Evaluasi langkah yang selesai vs rencana, lalu pilih 1 prioritas utama untuk minggu berikutnya.",
+        "expected_output": "Catatan review mingguan + prioritas tunggal minggu depan.",
+        "success_criteria": "Ada keputusan jelas tentang langkah lanjut tanpa menambah target berlebihan."
+      }
+    ],
+    "rationale": [
+      "Plan uses deterministic templates aligned to role, level, and blocker.",
+      "Gap skills are converted into targeted practice steps (max 2) to keep scope realistic.",
+      "Plan always ends with a review step to keep weekly iteration consistent."
+    ],
+    "markdown_view": "# Rencana Aksi 4 Minggu - Frontend\n\nInput ringkas:\n- target_role=frontend, problem_category=skill_gap, current_level=basic, blocker_type=no_portfolio\n\n## Steps\n1. **Tetapkan Outcome Minggu Ini**\nTask suggestion: Tetapkan satu output kecil yang relevan dengan role frontend, lalu pecah menjadi 3 tugas harian yang realistis.\nExpected output: Rencana 7 hari berisi output utama + checklist tugas harian.\nSuccess criteria: Minimal 3 sesi kerja terjadwal dengan target output yang jelas.\n\n2. **Perkuat Fondasi yang Belum Stabil**\nTask suggestion: Ulang 1 topik dasar yang sering bikin mentok, lalu praktikkan pada mini-task berdurasi <90 menit.\nExpected output: Satu mini-task selesai beserta catatan kendala dan solusi.\nSuccess criteria: Mini-task selesai end-to-end dan tidak lagi tersendat di titik yang sama.\n\n3. **Bangun Bukti Portfolio Pertama**\nTask suggestion: Pilih 1 mini-project Frontend yang bisa selesai dalam 5-7 hari, lalu publikasi di GitHub/Notion.\nExpected output: 1 link project publik + README singkat konteks, fitur, dan hasil.\nSuccess criteria: Project bisa diakses publik dan menjelaskan kontribusi kamu secara jelas.\n\n4. **Tutup Gap Skill: React Component Basics**\nTask suggestion: Kerjakan task 'Komponen React Card Reusable' dan fokus pada skill React Component Basics.\nExpected output: Artifact: Card.jsx, App.jsx.\nSuccess criteria: Artifact selesai dan dapat dijelaskan keputusan implementasinya.\n\n5. **Tutup Gap Skill: Api Fetch State**\nTask suggestion: Kerjakan task 'Daftar Data dari API Publik' dan fokus pada skill Api Fetch State.\nExpected output: Artifact: DataList.jsx, api_notes.md.\nSuccess criteria: Artifact selesai dan dapat dijelaskan keputusan implementasinya.\n\n6. **Review Progres dan Tetapkan Langkah Lanjut**\nTask suggestion: Evaluasi langkah yang selesai vs rencana, lalu pilih 1 prioritas utama untuk minggu berikutnya.\nExpected output: Catatan review mingguan + prioritas tunggal minggu depan.\nSuccess criteria: Ada keputusan jelas tentang langkah lanjut tanpa menambah target berlebihan.\n\n## Rationale\n- Plan uses deterministic templates aligned to role, level, and blocker.\n- Gap skills are converted into targeted practice steps (max 2) to keep scope realistic.\n- Plan always ends with a review step to keep weekly iteration consistent."
+  },
+  "overwhelmed_unclear_role": {
+    "planner_version": "action_plan_rule_v1",
+    "input_snapshot": {
+      "target_role": "unclear",
+      "problem_category": "overwhelmed",
+      "current_level": "unclear",
+      "blocker_type": "too_many_options",
+      "gap_skills": []
+    },
+    "clarification_needed": true,
+    "title": "Rencana Aksi 2 Minggu untuk Menentukan Arah Karier",
+    "steps": [
+      {
+        "order": 1,
+        "title": "Tentukan Satu Role Fokus 4 Minggu",
+        "task_suggestion": "Pilih 1 role utama dari 3 opsi teratas yang kamu minati, lalu tulis alasan pemilihan dalam 3 kalimat.",
+        "expected_output": "Dokumen singkat role_decision.md berisi 1 role terpilih + alasannya.",
+        "success_criteria": "Satu role dipilih secara tegas dan tidak berubah selama 7 hari pertama."
+      },
+      {
+        "order": 2,
+        "title": "Validasi Level Saat Ini",
+        "task_suggestion": "Kerjakan 1 self-check sederhana: tulis apa yang sudah bisa, yang belum bisa, dan contoh bukti kerja.",
+        "expected_output": "Checklist level berisi kemampuan saat ini + bukti untuk tiap poin.",
+        "success_criteria": "Ada gambaran level yang cukup jelas untuk menentukan langkah berikutnya."
+      },
+      {
+        "order": 3,
+        "title": "Batasi Opsi Supaya Fokus",
+        "task_suggestion": "Tuliskan semua opsi yang sedang dikejar, coret hingga tersisa 1 jalur utama dan 1 jalur cadangan.",
+        "expected_output": "Daftar opsi yang sudah dipangkas + alasan pemangkasan.",
+        "success_criteria": "Selama 2 minggu tidak menambah jalur baru di luar pilihan utama."
+      },
+      {
+        "order": 4,
+        "title": "Kirim Satu Output Nyata Minggu Ini",
+        "task_suggestion": "Pilih tugas paling kecil yang bisa selesai dalam 60 menit dan kirim hasilnya untuk di-review.",
+        "expected_output": "Satu artefak nyata (file/link/screenshot) yang bisa dievaluasi.",
+        "success_criteria": "Output terkirim tepat waktu dan mendapatkan feedback awal."
+      },
+      {
+        "order": 5,
+        "title": "Review Progres dan Tetapkan Langkah Lanjut",
+        "task_suggestion": "Evaluasi langkah yang selesai vs rencana, lalu pilih 1 prioritas utama untuk minggu berikutnya.",
+        "expected_output": "Catatan review mingguan + prioritas tunggal minggu depan.",
+        "success_criteria": "Ada keputusan jelas tentang langkah lanjut tanpa menambah target berlebihan."
+      }
+    ],
+    "rationale": [
+      "Plan uses deterministic templates aligned to role, level, and blocker.",
+      "Gap skills are converted into targeted practice steps (max 2) to keep scope realistic.",
+      "Plan always ends with a review step to keep weekly iteration consistent."
+    ],
+    "markdown_view": "# Rencana Aksi 2 Minggu untuk Menentukan Arah Karier\n\nInput ringkas:\n- target_role=unclear, problem_category=overwhelmed, current_level=unclear, blocker_type=too_many_options\n\n## Steps\n1. **Tentukan Satu Role Fokus 4 Minggu**\nTask suggestion: Pilih 1 role utama dari 3 opsi teratas yang kamu minati, lalu tulis alasan pemilihan dalam 3 kalimat.\nExpected output: Dokumen singkat role_decision.md berisi 1 role terpilih + alasannya.\nSuccess criteria: Satu role dipilih secara tegas dan tidak berubah selama 7 hari pertama.\n\n2. **Validasi Level Saat Ini**\nTask suggestion: Kerjakan 1 self-check sederhana: tulis apa yang sudah bisa, yang belum bisa, dan contoh bukti kerja.\nExpected output: Checklist level berisi kemampuan saat ini + bukti untuk tiap poin.\nSuccess criteria: Ada gambaran level yang cukup jelas untuk menentukan langkah berikutnya.\n\n3. **Batasi Opsi Supaya Fokus**\nTask suggestion: Tuliskan semua opsi yang sedang dikejar, coret hingga tersisa 1 jalur utama dan 1 jalur cadangan.\nExpected output: Daftar opsi yang sudah dipangkas + alasan pemangkasan.\nSuccess criteria: Selama 2 minggu tidak menambah jalur baru di luar pilihan utama.\n\n4. **Kirim Satu Output Nyata Minggu Ini**\nTask suggestion: Pilih tugas paling kecil yang bisa selesai dalam 60 menit dan kirim hasilnya untuk di-review.\nExpected output: Satu artefak nyata (file/link/screenshot) yang bisa dievaluasi.\nSuccess criteria: Output terkirim tepat waktu dan mendapatkan feedback awal.\n\n5. **Review Progres dan Tetapkan Langkah Lanjut**\nTask suggestion: Evaluasi langkah yang selesai vs rencana, lalu pilih 1 prioritas utama untuk minggu berikutnya.\nExpected output: Catatan review mingguan + prioritas tunggal minggu depan.\nSuccess criteria: Ada keputusan jelas tentang langkah lanjut tanpa menambah target berlebihan.\n\n## Rationale\n- Plan uses deterministic templates aligned to role, level, and blocker.\n- Gap skills are converted into targeted practice steps (max 2) to keep scope realistic.\n- Plan always ends with a review step to keep weekly iteration consistent."
+  }
+}

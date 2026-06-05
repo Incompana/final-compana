@@ -1,0 +1,269 @@
+{
+  "cybersecurity_beginner": {
+    "router_version": "question_router_rule_v1",
+    "input_snapshot": {
+      "problem_category": "beginner_lost",
+      "target_role": "cybersecurity",
+      "current_level": "zero",
+      "blocker_type": "no_foundation",
+      "pretext_confidence": 0.71
+    },
+    "clarification_needed": false,
+    "decision_path": [
+      "core.role_clarity",
+      "core.foundation_check",
+      "core.blocker_identification",
+      "extra.weakest_foundation_area"
+    ],
+    "question_count": 4,
+    "questions": [
+      {
+        "id": "role_commitment_4_weeks",
+        "prompt": "Untuk 4 minggu ke depan, apakah kamu mau fokus di role cybersecurity?",
+        "answer_type": "single_choice",
+        "options": [
+          "Ya, fokus di cybersecurity",
+          "Masih ingin bandingkan dengan role lain",
+          "Belum yakin sama sekali"
+        ],
+        "required": true,
+        "goal": "role_clarity",
+        "why_asked": "Konfirmasi komitmen role agar action plan tidak melebar."
+      },
+      {
+        "id": "foundation_check",
+        "prompt": "Dari daftar berikut, mana yang sudah bisa kamu lakukan sendiri untuk cybersecurity?",
+        "answer_type": "multi_choice",
+        "options": [
+          "paham konsep CIA triad dan contoh penerapannya",
+          "pernah baca log sederhana (login/access)",
+          "bisa pakai command Linux dasar",
+          "belum yakin fondasi cybersecurity-ku"
+        ],
+        "required": true,
+        "goal": "foundation_check",
+        "why_asked": "Sistem perlu mengukur fondasi aktual sebelum memberi task lanjutan."
+      },
+      {
+        "id": "main_blocker_confirm",
+        "prompt": "Pilih blocker utama kamu saat ini (pilih yang paling dominan).",
+        "answer_type": "single_choice",
+        "options": [
+          "no_roadmap",
+          "no_portfolio",
+          "no_foundation",
+          "no_time",
+          "no_confidence",
+          "too_many_options",
+          "unclear"
+        ],
+        "required": true,
+        "goal": "blocker_identification",
+        "why_asked": "Blocker utama mengubah prioritas pertanyaan lanjutan dan rekomendasi task. Sinyal awal: no_foundation."
+      },
+      {
+        "id": "weakest_foundation_area",
+        "prompt": "Bagian fondasi mana yang paling sering bikin kamu mentok?",
+        "answer_type": "single_choice",
+        "options": [
+          "konsep dasar",
+          "praktik kecil berulang",
+          "mengerjakan project dari awal",
+          "tidak yakin bagian mana"
+        ],
+        "required": true,
+        "goal": "foundation_check",
+        "why_asked": "Menentukan gap fondasi paling kritis untuk prioritas task awal."
+      }
+    ]
+  },
+  "confused_multi_interest_user": {
+    "router_version": "question_router_rule_v1",
+    "input_snapshot": {
+      "problem_category": "direction_confused",
+      "target_role": "unclear",
+      "current_level": "unclear",
+      "blocker_type": "too_many_options",
+      "pretext_confidence": 0.38
+    },
+    "clarification_needed": true,
+    "decision_path": [
+      "core.role_clarity",
+      "core.foundation_check",
+      "core.blocker_identification",
+      "extra.role_decision_anchor",
+      "extra.option_sprawl_source"
+    ],
+    "question_count": 5,
+    "questions": [
+      {
+        "id": "role_pick_primary",
+        "prompt": "Role utama mana yang paling ingin kamu fokuskan dalam 4 minggu ke depan?",
+        "answer_type": "single_choice",
+        "options": [
+          "cybersecurity",
+          "frontend",
+          "backend",
+          "data_analyst",
+          "uiux",
+          "belum_tahu"
+        ],
+        "required": true,
+        "goal": "role_clarity",
+        "why_asked": "Input masih ambigu, jadi sistem perlu menetapkan satu role prioritas."
+      },
+      {
+        "id": "foundation_check",
+        "prompt": "Dari daftar berikut, mana yang sudah bisa kamu lakukan sendiri untuk target_role?",
+        "answer_type": "multi_choice",
+        "options": [
+          "bisa buat layout responsif HTML/CSS",
+          "paham JavaScript dasar (array/object/function)",
+          "pernah bikin komponen React sederhana",
+          "belum yakin fondasi frontend-ku"
+        ],
+        "required": true,
+        "goal": "foundation_check",
+        "why_asked": "Sistem perlu mengukur fondasi aktual sebelum memberi task lanjutan."
+      },
+      {
+        "id": "main_blocker_confirm",
+        "prompt": "Pilih blocker utama kamu saat ini (pilih yang paling dominan).",
+        "answer_type": "single_choice",
+        "options": [
+          "no_roadmap",
+          "no_portfolio",
+          "no_foundation",
+          "no_time",
+          "no_confidence",
+          "too_many_options",
+          "unclear"
+        ],
+        "required": true,
+        "goal": "blocker_identification",
+        "why_asked": "Blocker utama mengubah prioritas pertanyaan lanjutan dan rekomendasi task. Sinyal awal: too_many_options."
+      },
+      {
+        "id": "role_decision_anchor",
+        "prompt": "Kriteria apa yang paling penting buat kamu saat memilih role?",
+        "answer_type": "single_choice",
+        "options": [
+          "paling cepat dapat kerja",
+          "paling cocok dengan kemampuan sekarang",
+          "paling saya suka dikerjakan harian",
+          "gaji/peluang karier jangka panjang"
+        ],
+        "required": true,
+        "goal": "role_clarity",
+        "why_asked": "Membantu memutuskan role saat user punya multi-interest."
+      },
+      {
+        "id": "option_sprawl_source",
+        "prompt": "Pilihan yang membuat kamu paling sulit fokus datang dari mana?",
+        "answer_type": "single_choice",
+        "options": [
+          "terlalu banyak resource belajar",
+          "terlalu banyak role yang menarik",
+          "terlalu banyak ide project",
+          "input dari banyak mentor/teman"
+        ],
+        "required": true,
+        "goal": "blocker_identification",
+        "why_asked": "Mengidentifikasi sumber distraksi utama untuk dipangkas."
+      }
+    ]
+  },
+  "frontend_basic_skills": {
+    "router_version": "question_router_rule_v1",
+    "input_snapshot": {
+      "problem_category": "skill_gap",
+      "target_role": "frontend",
+      "current_level": "basic",
+      "blocker_type": "no_portfolio",
+      "pretext_confidence": 0.84
+    },
+    "clarification_needed": false,
+    "decision_path": [
+      "core.role_clarity",
+      "core.foundation_check",
+      "core.blocker_identification",
+      "extra.weakest_foundation_area",
+      "extra.portfolio_evidence_state"
+    ],
+    "question_count": 5,
+    "questions": [
+      {
+        "id": "role_commitment_4_weeks",
+        "prompt": "Untuk 4 minggu ke depan, apakah kamu mau fokus di role frontend?",
+        "answer_type": "single_choice",
+        "options": [
+          "Ya, fokus di frontend",
+          "Masih ingin bandingkan dengan role lain",
+          "Belum yakin sama sekali"
+        ],
+        "required": true,
+        "goal": "role_clarity",
+        "why_asked": "Konfirmasi komitmen role agar action plan tidak melebar."
+      },
+      {
+        "id": "foundation_check",
+        "prompt": "Dari daftar berikut, mana yang sudah bisa kamu lakukan sendiri untuk frontend?",
+        "answer_type": "multi_choice",
+        "options": [
+          "bisa buat layout responsif HTML/CSS",
+          "paham JavaScript dasar (array/object/function)",
+          "pernah bikin komponen React sederhana",
+          "belum yakin fondasi frontend-ku"
+        ],
+        "required": true,
+        "goal": "foundation_check",
+        "why_asked": "Sistem perlu mengukur fondasi aktual sebelum memberi task lanjutan."
+      },
+      {
+        "id": "main_blocker_confirm",
+        "prompt": "Pilih blocker utama kamu saat ini (pilih yang paling dominan).",
+        "answer_type": "single_choice",
+        "options": [
+          "no_roadmap",
+          "no_portfolio",
+          "no_foundation",
+          "no_time",
+          "no_confidence",
+          "too_many_options",
+          "unclear"
+        ],
+        "required": true,
+        "goal": "blocker_identification",
+        "why_asked": "Blocker utama mengubah prioritas pertanyaan lanjutan dan rekomendasi task. Sinyal awal: no_portfolio."
+      },
+      {
+        "id": "weakest_foundation_area",
+        "prompt": "Bagian fondasi mana yang paling sering bikin kamu mentok?",
+        "answer_type": "single_choice",
+        "options": [
+          "konsep dasar",
+          "praktik kecil berulang",
+          "mengerjakan project dari awal",
+          "tidak yakin bagian mana"
+        ],
+        "required": true,
+        "goal": "foundation_check",
+        "why_asked": "Menentukan gap fondasi paling kritis untuk prioritas task awal."
+      },
+      {
+        "id": "portfolio_evidence_state",
+        "prompt": "Bukti kerja yang saat ini paling siap kamu tunjukkan apa?",
+        "answer_type": "single_choice",
+        "options": [
+          "belum ada project selesai",
+          "ada 1 project tapi belum rapi",
+          "ada >1 project tapi belum dipublikasikan",
+          "sudah ada portfolio link yang bisa dibagikan"
+        ],
+        "required": true,
+        "goal": "blocker_identification",
+        "why_asked": "Memvalidasi apakah hambatan utamanya benar di bukti portfolio."
+      }
+    ]
+  }
+}

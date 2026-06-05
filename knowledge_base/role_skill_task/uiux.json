@@ -1,0 +1,81 @@
+{
+  "role_id": "uiux",
+  "display_name": "UI/UX",
+  "version": "1.0",
+  "required_skills": [
+    {
+      "skill_id": "problem_framing",
+      "skill_name": "Problem Framing",
+      "priority": "high"
+    },
+    {
+      "skill_id": "wireframing_user_flow",
+      "skill_name": "Wireframing and User Flow",
+      "priority": "high"
+    },
+    {
+      "skill_id": "visual_hierarchy_basics",
+      "skill_name": "Visual Hierarchy Basics",
+      "priority": "medium"
+    },
+    {
+      "skill_id": "prototyping_basics",
+      "skill_name": "Prototyping Basics",
+      "priority": "medium"
+    },
+    {
+      "skill_id": "usability_testing_basics",
+      "skill_name": "Usability Testing Basics",
+      "priority": "low"
+    }
+  ],
+  "beginner_tasks": [
+    {
+      "task_id": "ux_task_01",
+      "title": "Buat User Flow + Wireframe Low-Fidelity",
+      "description": "Tentukan satu masalah user dan buat alur serta wireframe 4-5 layar utama.",
+      "focus_skills": ["problem_framing", "wireframing_user_flow"],
+      "expected_artifacts": ["user_flow.png", "wireframe_set.png"]
+    },
+    {
+      "task_id": "ux_task_02",
+      "title": "Prototype Klik Dasar",
+      "description": "Ubah wireframe menjadi prototype klik sederhana untuk satu skenario user.",
+      "focus_skills": ["prototyping_basics", "visual_hierarchy_basics"],
+      "expected_artifacts": ["prototype_link.txt", "scenario_notes.md"]
+    },
+    {
+      "task_id": "ux_task_03",
+      "title": "Uji 3 Pengguna + Ringkasan Temuan",
+      "description": "Lakukan uji singkat ke 3 pengguna dan rangkum friction paling penting.",
+      "focus_skills": ["usability_testing_basics", "problem_framing"],
+      "expected_artifacts": ["test_notes.md", "improvement_plan.md"]
+    }
+  ],
+  "task_rubric": [
+    {
+      "criterion_id": "problem_alignment",
+      "criterion": "Kesesuaian Masalah",
+      "description": "Desain menjawab masalah user yang jelas dan spesifik.",
+      "score_scale": {"min": 0, "max": 2}
+    },
+    {
+      "criterion_id": "flow_clarity",
+      "criterion": "Kejelasan Alur",
+      "description": "Alur user mudah diikuti dan minim langkah tidak perlu.",
+      "score_scale": {"min": 0, "max": 2}
+    },
+    {
+      "criterion_id": "visual_structure",
+      "criterion": "Struktur Visual",
+      "description": "Hirarki visual membantu pengguna memahami prioritas konten.",
+      "score_scale": {"min": 0, "max": 2}
+    },
+    {
+      "criterion_id": "testing_feedback_usage",
+      "criterion": "Penggunaan Feedback Uji",
+      "description": "Ada bukti perbaikan yang berasal dari hasil uji pengguna.",
+      "score_scale": {"min": 0, "max": 2}
+    }
+  ]
+}

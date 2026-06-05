@@ -1,0 +1,81 @@
+{
+  "role_id": "frontend",
+  "display_name": "Frontend",
+  "version": "1.0",
+  "required_skills": [
+    {
+      "skill_id": "html_css_basics",
+      "skill_name": "HTML/CSS Basics",
+      "priority": "high"
+    },
+    {
+      "skill_id": "javascript_basics",
+      "skill_name": "JavaScript Basics",
+      "priority": "high"
+    },
+    {
+      "skill_id": "react_component_basics",
+      "skill_name": "React Component Basics",
+      "priority": "medium"
+    },
+    {
+      "skill_id": "api_fetch_state",
+      "skill_name": "API Fetch and State Handling",
+      "priority": "medium"
+    },
+    {
+      "skill_id": "ui_testing_basics",
+      "skill_name": "UI Testing Basics",
+      "priority": "low"
+    }
+  ],
+  "beginner_tasks": [
+    {
+      "task_id": "fe_task_01",
+      "title": "Landing Page Responsif Satu Halaman",
+      "description": "Bangun landing page sederhana dengan layout responsif untuk mobile dan desktop.",
+      "focus_skills": ["html_css_basics", "javascript_basics"],
+      "expected_artifacts": ["index.html", "styles.css", "README.md"]
+    },
+    {
+      "task_id": "fe_task_02",
+      "title": "Komponen React Card Reusable",
+      "description": "Buat komponen card yang bisa dipakai ulang dengan props untuk judul, deskripsi, dan aksi.",
+      "focus_skills": ["react_component_basics", "javascript_basics"],
+      "expected_artifacts": ["Card.jsx", "App.jsx"]
+    },
+    {
+      "task_id": "fe_task_03",
+      "title": "Daftar Data dari API Publik",
+      "description": "Ambil data dari API publik, tampilkan loading/error state, dan render list sederhana.",
+      "focus_skills": ["api_fetch_state", "react_component_basics"],
+      "expected_artifacts": ["DataList.jsx", "api_notes.md"]
+    }
+  ],
+  "task_rubric": [
+    {
+      "criterion_id": "ui_correctness",
+      "criterion": "Kebenaran UI",
+      "description": "Tampilan sesuai kebutuhan dasar dan tidak rusak.",
+      "score_scale": {"min": 0, "max": 2}
+    },
+    {
+      "criterion_id": "responsiveness",
+      "criterion": "Responsiveness",
+      "description": "Layout tetap terbaca di mobile dan desktop.",
+      "score_scale": {"min": 0, "max": 2}
+    },
+    {
+      "criterion_id": "functionality",
+      "criterion": "Fungsi Inti",
+      "description": "Interaksi inti berjalan (render data, loading, error, event dasar).",
+      "score_scale": {"min": 0, "max": 2}
+    },
+    {
+      "criterion_id": "code_readability",
+      "criterion": "Keterbacaan Kode",
+      "description": "Struktur file dan penamaan variabel mudah dipahami reviewer pemula.",
+      "score_scale": {"min": 0, "max": 2}
+    }
+  ]
+}

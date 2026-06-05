@@ -1,0 +1,26 @@
+{
+  "knowledge_base_name": "compana_role_skill_task_kb",
+  "version": "1.0",
+  "roles": [
+    {
+      "role_id": "cybersecurity",
+      "file": "knowledge_base/role_skill_task/cybersecurity.json"
+    },
+    {
+      "role_id": "frontend",
+      "file": "knowledge_base/role_skill_task/frontend.json"
+    },
+    {
+      "role_id": "backend",
+      "file": "knowledge_base/role_skill_task/backend.json"
+    },
+    {
+      "role_id": "data_analyst",
+      "file": "knowledge_base/role_skill_task/data_analyst.json"
+    },
+    {
+      "role_id": "uiux",
+      "file": "knowledge_base/role_skill_task/uiux.json"
+    }
+  ]
+}

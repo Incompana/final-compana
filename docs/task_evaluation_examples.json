@@ -1,0 +1,131 @@
+{
+  "cybersecurity_basic_nmap_explanation": {
+    "submission": "Nmap digunakan untuk memindai host dan port terbuka pada jaringan. Contoh sederhana: nmap -sV 192.168.1.10 untuk melihat service dan version. Dari output, kita bisa membaca port open/closed lalu menentukan tindak lanjut. Scanning dilakukan di lab sendiri dengan izin agar tetap legal dan etis.",
+    "evaluation": {
+      "evaluator_version": "task_rubric_rule_v1",
+      "task_id": "cybersecurity_basic_nmap_explanation",
+      "status": "passed",
+      "strengths": [
+        "Correctness: Penjelasan inti fungsi nmap sudah tepat untuk level pemula.",
+        "Completeness: Komponen utama sudah lengkap: fungsi, contoh command, dan cara baca hasil.",
+        "Clarity: Penjelasan sudah cukup rapi dan mudah diikuti.",
+        "Best Practice: Aspek etika dan batasan penggunaan aman sudah dijelaskan dengan baik."
+      ],
+      "weaknesses": [
+        "Technical Accuracy: Arah teknisnya sudah benar, detail istilah masih bisa diperkuat."
+      ],
+      "suggestions": [
+        "Sertakan contoh flag nmap sederhana (mis. -sV atau -sn) beserta tujuan masing-masing."
+      ],
+      "dimension_scores": [
+        {
+          "dimension": "correctness",
+          "label": "Correctness",
+          "score": 2,
+          "max_score": 2,
+          "weight": 1.0,
+          "comment": "Penjelasan inti fungsi nmap sudah tepat untuk level pemula."
+        },
+        {
+          "dimension": "completeness",
+          "label": "Completeness",
+          "score": 2,
+          "max_score": 2,
+          "weight": 1.0,
+          "comment": "Komponen utama sudah lengkap: fungsi, contoh command, dan cara baca hasil."
+        },
+        {
+          "dimension": "clarity",
+          "label": "Clarity",
+          "score": 2,
+          "max_score": 2,
+          "weight": 1.0,
+          "comment": "Penjelasan sudah cukup rapi dan mudah diikuti."
+        },
+        {
+          "dimension": "technical_accuracy",
+          "label": "Technical Accuracy",
+          "score": 1,
+          "max_score": 2,
+          "weight": 1.2,
+          "comment": "Arah teknisnya sudah benar, detail istilah masih bisa diperkuat."
+        },
+        {
+          "dimension": "best_practice",
+          "label": "Best Practice",
+          "score": 2,
+          "max_score": 2,
+          "weight": 1.2,
+          "comment": "Aspek etika dan batasan penggunaan aman sudah dijelaskan dengan baik."
+        }
+      ],
+      "weighted_score": 9.6,
+      "weighted_max_score": 10.8,
+      "confidence": 0.85,
+      "assistive_note": "Umpan balik ini bersifat pendamping untuk membantu iterasi, bukan penilaian absolut."
+    }
+  },
+  "frontend_simple_html_dashboard": {
+    "submission": "<!doctype html>\n<html>\n  <head>\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <title>Dashboard Penjualan</title>\n    <style>\n      .card { border: 1px solid #ddd; padding: 8px; }\n    </style>\n  </head>\n  <body>\n    <header><h1>Dashboard Mingguan</h1></header>\n    <main>\n      <section class=\"card\">Total Orders: 120</section>\n      <section class=\"card\">Revenue: Rp 12.000.000</section>\n      <table>\n        <tr><th>Produk</th><th>Qty</th></tr>\n        <tr><td>Produk A</td><td>20</td></tr>\n      </table>\n    </main>\n  </body>\n</html>",
+    "evaluation": {
+      "evaluator_version": "task_rubric_rule_v1",
+      "task_id": "frontend_simple_html_dashboard",
+      "status": "passed",
+      "strengths": [
+        "Correctness: Struktur dasar HTML sudah lengkap dan sesuai tujuan task.",
+        "Completeness: Elemen dashboard utama sudah cukup lengkap untuk baseline pemula.",
+        "Clarity: Susunan kode cukup rapi sehingga mudah direview.",
+        "Technical Accuracy: Implementasi teknis dasar sudah cukup tepat untuk submission awal.",
+        "Best Practice: Praktik responsif dan aksesibilitas dasar sudah diterapkan dengan baik."
+      ],
+      "weaknesses": [],
+      "suggestions": [],
+      "dimension_scores": [
+        {
+          "dimension": "correctness",
+          "label": "Correctness",
+          "score": 2,
+          "max_score": 2,
+          "weight": 1.0,
+          "comment": "Struktur dasar HTML sudah lengkap dan sesuai tujuan task."
+        },
+        {
+          "dimension": "completeness",
+          "label": "Completeness",
+          "score": 2,
+          "max_score": 2,
+          "weight": 1.1,
+          "comment": "Elemen dashboard utama sudah cukup lengkap untuk baseline pemula."
+        },
+        {
+          "dimension": "clarity",
+          "label": "Clarity",
+          "score": 2,
+          "max_score": 2,
+          "weight": 1.0,
+          "comment": "Susunan kode cukup rapi sehingga mudah direview."
+        },
+        {
+          "dimension": "technical_accuracy",
+          "label": "Technical Accuracy",
+          "score": 2,
+          "max_score": 2,
+          "weight": 1.0,
+          "comment": "Implementasi teknis dasar sudah cukup tepat untuk submission awal."
+        },
+        {
+          "dimension": "best_practice",
+          "label": "Best Practice",
+          "score": 2,
+          "max_score": 2,
+          "weight": 1.1,
+          "comment": "Praktik responsif dan aksesibilitas dasar sudah diterapkan dengan baik."
+        }
+      ],
+      "weighted_score": 10.4,
+      "weighted_max_score": 10.4,
+      "confidence": 0.85,
+      "assistive_note": "Umpan balik ini bersifat pendamping untuk membantu iterasi, bukan penilaian absolut."
+    }
+  }
+}

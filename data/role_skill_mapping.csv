@@ -1,0 +1,70 @@
+role_id,role_name,domain_interest,required_skill_id,required_skill_name,skill_category,priority,minimum_level,step_order,prerequisite_skill_id
+frontend_developer,Frontend Developer,frontend,html_basic,HTML (basic),markup,high,basic,1,
+frontend_developer,Frontend Developer,frontend,css_basic,CSS (basic),style,medium,basic,2,html_basic
+frontend_developer,Frontend Developer,frontend,javascript_basic,JavaScript (basic),programming,high,basic,3,
+backend_developer,Backend Developer,backend,javascript_basic,JavaScript,fundamental,high,basic,1,
+backend_developer,Backend Developer,backend,sql_basic,SQL,fundamental,high,basic,2,javascript_basic
+backend_developer,Backend Developer,backend,java,Java,fundamental,high,basic,3,sql_basic
+backend_developer,Backend Developer,backend,python_basic,Python,fundamental,medium,basic,4,java
+backend_developer,Backend Developer,backend,agile_scrum,Agile/Scrum,fundamental,medium,basic,5,python_basic
+backend_developer,Backend Developer,backend,php,PHP,fundamental,medium,basic,6,agile_scrum
+backend_developer,Backend Developer,backend,ruby,Ruby,fundamental,medium,basic,7,php
+backend_developer,Backend Developer,backend,git,Git,fundamental,medium,basic,8,ruby
+backend_developer,Backend Developer,backend,css_basic,CSS,fundamental,medium,basic,9,git
+backend_developer,Backend Developer,backend,typescript,TypeScript,core,medium,intermediate,10,css_basic
+backend_developer,Backend Developer,backend,ui_ux,UI/UX,core,medium,intermediate,11,typescript
+backend_developer,Backend Developer,backend,tailwind_css,Tailwind CSS,core,medium,intermediate,12,ui_ux
+backend_developer,Backend Developer,backend,angular,Angular,core,medium,intermediate,13,tailwind_css
+backend_developer,Backend Developer,backend,golang,Golang,core,medium,intermediate,14,angular
+backend_developer,Backend Developer,backend,mysql,MySQL,core,medium,intermediate,15,golang
+backend_developer,Backend Developer,backend,spring_boot,Spring Boot,core,medium,intermediate,16,mysql
+backend_developer,Backend Developer,backend,laravel,Laravel,core,medium,intermediate,17,spring_boot
+backend_developer,Backend Developer,backend,postgresql,PostgreSQL,core,medium,intermediate,18,laravel
+backend_developer,Backend Developer,backend,rest_api,REST API,core,medium,intermediate,19,postgresql
+backend_developer,Backend Developer,backend,react_js,React.js,core,medium,intermediate,20,rest_api
+backend_developer,Backend Developer,backend,mongodb,MongoDB,core,medium,intermediate,21,react_js
+backend_developer,Backend Developer,backend,docker,Docker,advanced,medium,advanced,22,mongodb
+backend_developer,Backend Developer,backend,aws,AWS,advanced,medium,advanced,23,docker
+backend_developer,Backend Developer,backend,azure,Azure,advanced,medium,advanced,24,aws
+backend_developer,Backend Developer,backend,kubernetes,Kubernetes,advanced,medium,advanced,25,azure
+backend_developer,Backend Developer,backend,microservices,Microservices,advanced,medium,advanced,26,kubernetes
+backend_developer,Backend Developer,backend,gcp,GCP,advanced,medium,advanced,27,microservices
+backend_developer,Backend Developer,backend,ci_cd,CI/CD,advanced,medium,advanced,28,gcp
+data_analyst,Data Analyst,ai_ml,java,Java,fundamental,high,basic,1,
+data_analyst,Data Analyst,ai_ml,python_basic,Python,fundamental,high,basic,2,java
+data_analyst,Data Analyst,ai_ml,excel,Excel,fundamental,high,basic,3,python_basic
+data_analyst,Data Analyst,ai_ml,problem_solving,Problem Solving,fundamental,medium,basic,4,excel
+data_analyst,Data Analyst,ai_ml,sql_basic,SQL,fundamental,medium,basic,5,problem_solving
+data_analyst,Data Analyst,ai_ml,r,R,fundamental,medium,basic,6,sql_basic
+data_analyst,Data Analyst,ai_ml,typescript,TypeScript,core,medium,intermediate,7,r
+data_analyst,Data Analyst,ai_ml,tableau,Tableau,core,medium,intermediate,8,typescript
+data_analyst,Data Analyst,ai_ml,machine_learning,Machine Learning,core,medium,intermediate,9,tableau
+data_analyst,Data Analyst,ai_ml,power_bi,Power BI,core,medium,intermediate,10,machine_learning
+data_analyst,Data Analyst,data,postgresql,PostgreSQL,core,medium,intermediate,7,typescript
+data_analyst,Data Analyst,data,rest_api,REST API,core,medium,intermediate,8,postgresql
+data_analyst,Data Analyst,data,golang,Golang,core,medium,intermediate,9,rest_api
+data_analyst,Data Analyst,data,mysql,MySQL,core,medium,intermediate,10,golang
+data_analyst,Data Analyst,data,etl,ETL,advanced,medium,advanced,14,power_bi
+data_analyst,Data Analyst,data,gcp,GCP,advanced,medium,advanced,15,etl
+data_analyst,Data Analyst,data,data_modeling,Data Modeling,advanced,medium,advanced,16,gcp
+data_analyst,Data Analyst,data,bigquery,BigQuery,advanced,medium,advanced,17,data_modeling
+ui_ux_designer,UI/UX Designer,ui_ux,wireframing,Wireframing,fundamental,high,basic,1,
+ui_ux_designer,UI/UX Designer,ui_ux,html_basic,HTML,fundamental,high,basic,2,wireframing
+ui_ux_designer,UI/UX Designer,ui_ux,css_basic,CSS,fundamental,high,basic,3,html_basic
+ui_ux_designer,UI/UX Designer,ui_ux,typescript,TypeScript,core,medium,intermediate,4,css_basic
+ui_ux_designer,UI/UX Designer,ui_ux,ui_ux,UI/UX,core,medium,intermediate,5,typescript
+ui_ux_designer,UI/UX Designer,ui_ux,prototyping,Prototyping,core,medium,intermediate,6,ui_ux
+ui_ux_designer,UI/UX Designer,ui_ux,figma,Figma,core,medium,intermediate,7,prototyping
+ui_ux_designer,UI/UX Designer,ui_ux,machine_learning,Machine Learning,core,medium,intermediate,8,figma
+ui_ux_designer,UI/UX Designer,ui_ux,excel,Excel,fundamental,high,basic,2,wireframing
+ui_ux_designer,UI/UX Designer,ui_ux,agile_scrum,Agile/Scrum,fundamental,high,basic,3,excel
+ui_ux_designer,UI/UX Designer,ui_ux,javascript_basic,JavaScript,fundamental,medium,basic,5,html_basic
+ui_ux_designer,UI/UX Designer,ui_ux,sql_basic,SQL,fundamental,medium,basic,6,javascript_basic
+data_analyst,Data Analyst,data,spreadsheet_basic,Spreadsheet Basic,core,high,beginner,19,
+machine_learning_engineer,Machine Learning Engineer,ai_ml,python_basic,Python Basic,core,high,advanced,1,
+machine_learning_engineer,Machine Learning Engineer,ai_ml,mlops,Mlops,core,high,beginner,2,
+machine_learning_engineer,Machine Learning Engineer,ai_ml,model_training,Model Training,core,high,beginner,3,
+soc_analyst,SOC Analyst,cyber_security,log_analysis,Log Analysis,core,high,intermediate,1,
+soc_analyst,SOC Analyst,cyber_security,networking_fundamental,Networking Fundamental,core,high,beginner,2,
+soc_analyst,SOC Analyst,cyber_security,linux_basic,Linux Basic,core,high,basic,3,
+ui_ux_designer,UI/UX Designer,ui_ux,ui_principles,Ui Principles,core,high,basic,13,

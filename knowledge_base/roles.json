@@ -1,0 +1,104 @@
+{
+  "roles": {
+    "frontend_developer": {
+      "display_name": "Frontend Developer",
+      "required_skills": [
+        {
+          "skill": "html_css",
+          "priority": "high",
+          "example_task": "Build a responsive landing page from a Figma mockup"
+        },
+        {
+          "skill": "javascript_react",
+          "priority": "high",
+          "example_task": "Create a React feature with reusable components"
+        },
+        {
+          "skill": "api_integration",
+          "priority": "medium",
+          "example_task": "Consume REST API and handle loading/error state"
+        },
+        {
+          "skill": "testing_basics",
+          "priority": "low",
+          "example_task": "Add component tests for a critical user flow"
+        }
+      ]
+    },
+    "backend_developer": {
+      "display_name": "Backend Developer",
+      "required_skills": [
+        {
+          "skill": "api_design",
+          "priority": "high",
+          "example_task": "Design CRUD endpoints with predictable schema"
+        },
+        {
+          "skill": "database_modeling",
+          "priority": "high",
+          "example_task": "Model tables and relationships for user/task data"
+        },
+        {
+          "skill": "auth_security",
+          "priority": "medium",
+          "example_task": "Implement token auth with role-based guards"
+        },
+        {
+          "skill": "testing_debugging",
+          "priority": "low",
+          "example_task": "Add integration tests for critical API flows"
+        }
+      ]
+    },
+    "data_analyst": {
+      "display_name": "Data Analyst",
+      "required_skills": [
+        {
+          "skill": "sql_querying",
+          "priority": "high",
+          "example_task": "Write SQL queries to answer product questions"
+        },
+        {
+          "skill": "data_cleaning",
+          "priority": "high",
+          "example_task": "Clean and validate missing/outlier values"
+        },
+        {
+          "skill": "dashboard_storytelling",
+          "priority": "medium",
+          "example_task": "Build a KPI dashboard with clear narrative"
+        },
+        {
+          "skill": "statistics_basics",
+          "priority": "low",
+          "example_task": "Explain trend significance and sampling limitations"
+        }
+      ]
+    },
+    "ui_ux_designer": {
+      "display_name": "UI/UX Designer",
+      "required_skills": [
+        {
+          "skill": "user_research",
+          "priority": "high",
+          "example_task": "Run 5 user interviews and synthesize pain points"
+        },
+        {
+          "skill": "wireframing",
+          "priority": "high",
+          "example_task": "Create low-fidelity user flow wireframes"
+        },
+        {
+          "skill": "prototyping",
+          "priority": "medium",
+          "example_task": "Build interactive prototype for usability testing"
+        },
+        {
+          "skill": "design_system_basics",
+          "priority": "low",
+          "example_task": "Define reusable components and spacing rules"
+        }
+      ]
+    }
+  }
+}

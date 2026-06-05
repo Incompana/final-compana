@@ -1,0 +1,27 @@
+[
+  {
+    "id": "clear_intent",
+    "text": "I want to become a frontend developer but I keep getting stuck while building portfolio projects.",
+    "expected_problem_category": "portfolio_execution"
+  },
+  {
+    "id": "ambiguous_intent",
+    "text": "I need help with my career.",
+    "expected_problem_category": "unclear"
+  },
+  {
+    "id": "emotional_input",
+    "text": "I feel anxious and not confident before backend technical interviews.",
+    "expected_problem_category": "interview_prep"
+  },
+  {
+    "id": "short_input",
+    "text": "Confused.",
+    "expected_problem_category": "unclear"
+  },
+  {
+    "id": "multi_interest",
+    "text": "I am interested in frontend and data analyst roles and cannot decide where to focus.",
+    "expected_problem_category": "role_clarity"
+  }
+]

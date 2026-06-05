@@ -1,0 +1,81 @@
+{
+  "role_id": "backend",
+  "display_name": "Backend",
+  "version": "1.0",
+  "required_skills": [
+    {
+      "skill_id": "http_api_basics",
+      "skill_name": "HTTP API Basics",
+      "priority": "high"
+    },
+    {
+      "skill_id": "database_crud",
+      "skill_name": "Database CRUD",
+      "priority": "high"
+    },
+    {
+      "skill_id": "input_validation_auth_basics",
+      "skill_name": "Input Validation and Auth Basics",
+      "priority": "medium"
+    },
+    {
+      "skill_id": "error_handling_logging",
+      "skill_name": "Error Handling and Logging",
+      "priority": "medium"
+    },
+    {
+      "skill_id": "api_testing_basics",
+      "skill_name": "API Testing Basics",
+      "priority": "low"
+    }
+  ],
+  "beginner_tasks": [
+    {
+      "task_id": "be_task_01",
+      "title": "Bangun CRUD API Sederhana",
+      "description": "Buat endpoint create/read/update/delete untuk entitas sederhana seperti task atau note.",
+      "focus_skills": ["http_api_basics", "database_crud"],
+      "expected_artifacts": ["server.js", "routes/", "sample_requests.md"]
+    },
+    {
+      "task_id": "be_task_02",
+      "title": "Tambah Validasi Input Dasar",
+      "description": "Tambahkan validasi field wajib dan format data pada endpoint create/update.",
+      "focus_skills": ["input_validation_auth_basics", "error_handling_logging"],
+      "expected_artifacts": ["validation_rules.md", "updated_routes.js"]
+    },
+    {
+      "task_id": "be_task_03",
+      "title": "Uji Satu Alur Endpoint",
+      "description": "Tulis tes dasar untuk satu alur endpoint penting (happy path dan invalid input).",
+      "focus_skills": ["api_testing_basics", "error_handling_logging"],
+      "expected_artifacts": ["tests/api_flow_test.*", "test_report.md"]
+    }
+  ],
+  "task_rubric": [
+    {
+      "criterion_id": "endpoint_correctness",
+      "criterion": "Ketepatan Endpoint",
+      "description": "Method, status code, dan respons sesuai kontrak dasar API.",
+      "score_scale": {"min": 0, "max": 2}
+    },
+    {
+      "criterion_id": "data_integrity",
+      "criterion": "Integritas Data",
+      "description": "Data tersimpan/diupdate dengan benar tanpa field wajib terlewat.",
+      "score_scale": {"min": 0, "max": 2}
+    },
+    {
+      "criterion_id": "error_safety",
+      "criterion": "Keamanan Error Handling",
+      "description": "Error ditangani rapi tanpa membocorkan detail sensitif.",
+      "score_scale": {"min": 0, "max": 2}
+    },
+    {
+      "criterion_id": "test_readiness",
+      "criterion": "Kesiapan Testing",
+      "description": "Ada bukti pengujian minimal untuk alur endpoint utama.",
+      "score_scale": {"min": 0, "max": 2}
+    }
+  ]
+}

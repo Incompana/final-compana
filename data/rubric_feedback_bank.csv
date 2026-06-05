@@ -1,0 +1,193 @@
+rubric_id,task_id,criteria,weight,required,keyword_signal,feedback_if_missing
+R_T_FRONT_1_1,T_FRONT_1,Ada struktur HTML semantic,35,True,struktur|html|semantic|dasar|html_file/screenshot,Lengkapi bagian ini: Ada struktur HTML semantic
+R_T_FRONT_1_2,T_FRONT_1,Ada heading dan section profil,30,True,heading|section|profil|html|dasar|html_file/screenshot,Lengkapi bagian ini: Ada heading dan section profil
+R_T_FRONT_1_3,T_FRONT_1,Ada tombol call-to-action,20,True,tombol|call-to-action|html|dasar|html_file/screenshot,Lengkapi bagian ini: Ada tombol call-to-action
+R_T_FRONT_1_4,T_FRONT_1,Ada screenshot hasil browser,15,False,screenshot|hasil|browser|html|dasar|html_file/screenshot,Lengkapi bagian ini: Ada screenshot hasil browser
+R_T_FRONT_2_1,T_FRONT_2,CSS terhubung ke HTML,35,True,terhubung|html|dasar|html_css_files/screenshot,Lengkapi bagian ini: CSS terhubung ke HTML
+R_T_FRONT_2_2,T_FRONT_2,Spacing dan warna konsisten,30,True,spacing|warna|konsisten|dasar|html_css_files/screenshot,Lengkapi bagian ini: Spacing dan warna konsisten
+R_T_FRONT_2_3,T_FRONT_2,Layout tidak pecah di mobile,20,True,layout|tidak|pecah|mobile|dasar|html_css_files/screenshot,Lengkapi bagian ini: Layout tidak pecah di mobile
+R_T_FRONT_2_4,T_FRONT_2,Ada screenshot hasil,15,False,screenshot|hasil|dasar|html_css_files/screenshot,Lengkapi bagian ini: Ada screenshot hasil
+R_T_FRONT_3_1,T_FRONT_3,JavaScript terhubung ke HTML,35,True,javascript|terhubung|html|dasar|html_js_files/screenshot,Lengkapi bagian ini: JavaScript terhubung ke HTML
+R_T_FRONT_3_2,T_FRONT_3,Ada querySelector,30,True,queryselector|javascript|dasar|html_js_files/screenshot,Lengkapi bagian ini: Ada querySelector
+R_T_FRONT_3_3,T_FRONT_3,Ada addEventListener,20,True,addeventlistener|javascript|dasar|html_js_files/screenshot,Lengkapi bagian ini: Ada addEventListener
+R_T_FRONT_3_4,T_FRONT_3,Ada perubahan tampilan setelah klik,15,False,perubahan|tampilan|setelah|klik|javascript|dasar|html_js_files/screenshot,Lengkapi bagian ini: Ada perubahan tampilan setelah klik
+R_T_FRONT_4_1,T_FRONT_4,Ada minimal 3 card,35,True,minimal|card|dasar|html_css_files/screenshot,Lengkapi bagian ini: Ada minimal 3 card
+R_T_FRONT_4_2,T_FRONT_4,Layout memakai flex/grid,30,True,layout|memakai|flex/grid|dasar|html_css_files/screenshot,Lengkapi bagian ini: Layout memakai flex/grid
+R_T_FRONT_4_3,T_FRONT_4,Card tetap terbaca di mobile,20,True,card|tetap|terbaca|mobile|dasar|html_css_files/screenshot,Lengkapi bagian ini: Card tetap terbaca di mobile
+R_T_FRONT_4_4,T_FRONT_4,Ada screenshot hasil,15,False,screenshot|hasil|dasar|html_css_files/screenshot,Lengkapi bagian ini: Ada screenshot hasil
+R_T_FRONT_5_1,T_FRONT_5,Ada form input,35,True,form|input|javascript|dasar|github_link/screenshot,Lengkapi bagian ini: Ada form input
+R_T_FRONT_5_2,T_FRONT_5,Ada fetch POST,30,True,fetch|post|javascript|dasar|github_link/screenshot,Lengkapi bagian ini: Ada fetch POST
+R_T_FRONT_5_3,T_FRONT_5,Ada handling loading/error,20,True,handling|loading/error|javascript|dasar|github_link/screenshot,Lengkapi bagian ini: Ada handling loading/error
+R_T_FRONT_5_4,T_FRONT_5,Response JSON tampil di UI,15,False,response|json|tampil|javascript|dasar|github_link/screenshot,Lengkapi bagian ini: Response JSON tampil di UI
+R_T_FRONT_6_1,T_FRONT_6,Ada link GitHub,35,True,link|github|github_link,Lengkapi bagian ini: Ada link GitHub
+R_T_FRONT_6_2,T_FRONT_6,README menjelaskan tujuan,30,True,readme|menjelaskan|tujuan|github|github_link,Lengkapi bagian ini: README menjelaskan tujuan
+R_T_FRONT_6_3,T_FRONT_6,Ada cara menjalankan/membuka,20,True,cara|menjalankan/membuka|github|github_link,Lengkapi bagian ini: Ada cara menjalankan/membuka
+R_T_FRONT_6_4,T_FRONT_6,Ada screenshot hasil,15,False,screenshot|hasil|github|github_link,Lengkapi bagian ini: Ada screenshot hasil
+R_T_FRONT_7_1,T_FRONT_7,Ada type/interface,35,True,type/interface|typescript|ts_file/screenshot,Lengkapi bagian ini: Ada type/interface
+R_T_FRONT_7_2,T_FRONT_7,Ada array data typed,30,True,array|data|typed|typescript|ts_file/screenshot,Lengkapi bagian ini: Ada array data typed
+R_T_FRONT_7_3,T_FRONT_7,Ada function memakai tipe,20,True,function|memakai|tipe|typescript|ts_file/screenshot,Lengkapi bagian ini: Ada function memakai tipe
+R_T_FRONT_7_4,T_FRONT_7,Ada bukti compile/output,15,False,bukti|compile/output|typescript|ts_file/screenshot,Lengkapi bagian ini: Ada bukti compile/output
+R_T_FRONT_8_1,T_FRONT_8,Ada empty state,35,True,empty|state|javascript|dasar|github_link/screenshot,Lengkapi bagian ini: Ada empty state
+R_T_FRONT_8_2,T_FRONT_8,Ada loading state,30,True,loading|state|javascript|dasar|github_link/screenshot,Lengkapi bagian ini: Ada loading state
+R_T_FRONT_8_3,T_FRONT_8,Ada success/error state,20,True,success/error|state|javascript|dasar|github_link/screenshot,Lengkapi bagian ini: Ada success/error state
+R_T_FRONT_8_4,T_FRONT_8,Ada dokumentasi alur,15,False,dokumentasi|alur|javascript|dasar|github_link/screenshot,Lengkapi bagian ini: Ada dokumentasi alur
+R_T_BACK_1_1,T_BACK_1,Ada function validasi,35,True,function|validasi|javascript|dasar|js_file/screenshot,Lengkapi bagian ini: Ada function validasi
+R_T_BACK_1_2,T_BACK_1,Ada minimal 2 contoh test payload,30,True,minimal|contoh|test|payload|javascript|dasar|js_file/screenshot,Lengkapi bagian ini: Ada minimal 2 contoh test payload
+R_T_BACK_1_3,T_BACK_1,Error message jelas,20,True,error|message|jelas|javascript|dasar|js_file/screenshot,Lengkapi bagian ini: Error message jelas
+R_T_BACK_1_4,T_BACK_1,Ada screenshot/link hasil run,15,False,screenshot/link|hasil|javascript|dasar|js_file/screenshot,Lengkapi bagian ini: Ada screenshot/link hasil run
+R_T_BACK_2_1,T_BACK_2,Ada CREATE TABLE,35,True,create|table|dasar|sql_file/screenshot,Lengkapi bagian ini: Ada CREATE TABLE
+R_T_BACK_2_2,T_BACK_2,Ada INSERT minimal 5 data,30,True,insert|minimal|data|dasar|sql_file/screenshot,Lengkapi bagian ini: Ada INSERT minimal 5 data
+R_T_BACK_2_3,T_BACK_2,Ada SELECT WHERE,20,True,select|where|dasar|sql_file/screenshot,Lengkapi bagian ini: Ada SELECT WHERE
+R_T_BACK_2_4,T_BACK_2,Ada GROUP BY atau summary,15,False,group|atau|summary|dasar|sql_file/screenshot,Lengkapi bagian ini: Ada GROUP BY atau summary
+R_T_BACK_3_1,T_BACK_3,Ada endpoint GET dan POST,35,True,endpoint|post|rest|github_link/api_screenshot,Lengkapi bagian ini: Ada endpoint GET dan POST
+R_T_BACK_3_2,T_BACK_3,Response berbentuk JSON,30,True,response|berbentuk|json|rest|github_link/api_screenshot,Lengkapi bagian ini: Response berbentuk JSON
+R_T_BACK_3_3,T_BACK_3,Ada validasi input,20,True,validasi|input|rest|github_link/api_screenshot,Lengkapi bagian ini: Ada validasi input
+R_T_BACK_3_4,T_BACK_3,Ada error response saat payload salah,15,False,error|response|saat|payload|salah|rest|github_link/api_screenshot,Lengkapi bagian ini: Ada error response saat payload salah
+R_T_BACK_4_1,T_BACK_4,Ada link GitHub,35,True,link|github|github_link/readme_screenshot,Lengkapi bagian ini: Ada link GitHub
+R_T_BACK_4_2,T_BACK_4,README menjelaskan project,30,True,readme|menjelaskan|project|github|github_link/readme_screenshot,Lengkapi bagian ini: README menjelaskan project
+R_T_BACK_4_3,T_BACK_4,Ada contoh endpoint/request response,20,True,contoh|endpoint/request|response|github|github_link/readme_screenshot,Lengkapi bagian ini: Ada contoh endpoint/request response
+R_T_BACK_4_4,T_BACK_4,Ada screenshot endpoint,15,False,screenshot|endpoint|github|github_link/readme_screenshot,Lengkapi bagian ini: Ada screenshot endpoint
+R_T_BACK_5_1,T_BACK_5,Ada list/dictionary todo,35,True,list/dictionary|todo|python|dasar|python_file/screenshot,Lengkapi bagian ini: Ada list/dictionary todo
+R_T_BACK_5_2,T_BACK_5,Ada function validasi,30,True,function|validasi|python|dasar|python_file/screenshot,Lengkapi bagian ini: Ada function validasi
+R_T_BACK_5_3,T_BACK_5,Ada summary status,20,True,summary|status|python|dasar|python_file/screenshot,Lengkapi bagian ini: Ada summary status
+R_T_BACK_5_4,T_BACK_5,Ada handling data invalid,15,False,handling|data|invalid|python|dasar|python_file/screenshot,Lengkapi bagian ini: Ada handling data invalid
+R_T_BACK_6_1,T_BACK_6,Ada class Todo,35,True,class|todo|java|github_link/terminal_screenshot,Lengkapi bagian ini: Ada class Todo
+R_T_BACK_6_2,T_BACK_6,Ada ArrayList atau struktur data sejenis,30,True,arraylist|atau|struktur|data|sejenis|java|github_link/terminal_screenshot,Lengkapi bagian ini: Ada ArrayList atau struktur data sejenis
+R_T_BACK_6_3,T_BACK_6,Ada fitur tambah dan lihat,20,True,fitur|tambah|lihat|java|github_link/terminal_screenshot,Lengkapi bagian ini: Ada fitur tambah dan lihat
+R_T_BACK_6_4,T_BACK_6,Ada fitur ubah status,15,False,fitur|ubah|status|java|github_link/terminal_screenshot,Lengkapi bagian ini: Ada fitur ubah status
+R_T_BACK_7_1,T_BACK_7,Ada Dockerfile,35,True,dockerfile|docker|github_link/terminal_screenshot,Lengkapi bagian ini: Ada Dockerfile
+R_T_BACK_7_2,T_BACK_7,Container berhasil run,30,True,container|berhasil|docker|github_link/terminal_screenshot,Lengkapi bagian ini: Container berhasil run
+R_T_BACK_7_3,T_BACK_7,Endpoint bisa ditest,20,True,endpoint|bisa|ditest|docker|github_link/terminal_screenshot,Lengkapi bagian ini: Endpoint bisa ditest
+R_T_BACK_7_4,T_BACK_7,README berisi command build/run,15,False,readme|berisi|command|build/run|docker|github_link/terminal_screenshot,Lengkapi bagian ini: README berisi command build/run
+R_T_BACK_8_1,T_BACK_8,Ada workflow file,35,True,workflow|file|ci_cd|github_link/workflow_screenshot,Lengkapi bagian ini: Ada workflow file
+R_T_BACK_8_2,T_BACK_8,Ada command test/build,30,True,command|test/build|ci_cd|github_link/workflow_screenshot,Lengkapi bagian ini: Ada command test/build
+R_T_BACK_8_3,T_BACK_8,Workflow pernah dijalankan,20,True,workflow|pernah|dijalankan|ci_cd|github_link/workflow_screenshot,Lengkapi bagian ini: Workflow pernah dijalankan
+R_T_BACK_8_4,T_BACK_8,Ada screenshot status,15,False,screenshot|status|ci_cd|github_link/workflow_screenshot,Lengkapi bagian ini: Ada screenshot status
+R_T_UIUX_1_1,T_UIUX_1,Ada screenshot halaman,35,True,screenshot|halaman|prinsip|doc_link/screenshot,Lengkapi bagian ini: Ada screenshot halaman
+R_T_UIUX_1_2,T_UIUX_1,Ada minimal 3 temuan baik,30,True,minimal|temuan|baik|prinsip|doc_link/screenshot,Lengkapi bagian ini: Ada minimal 3 temuan baik
+R_T_UIUX_1_3,T_UIUX_1,Ada minimal 3 temuan perbaikan,20,True,minimal|temuan|perbaikan|prinsip|doc_link/screenshot,Lengkapi bagian ini: Ada minimal 3 temuan perbaikan
+R_T_UIUX_1_4,T_UIUX_1,Alasan memakai prinsip UI,15,False,alasan|memakai|prinsip|doc_link/screenshot,Lengkapi bagian ini: Alasan memakai prinsip UI
+R_T_UIUX_2_1,T_UIUX_2,Ada wireframe dashboard,35,True,wireframe|dashboard|figma_link/image,Lengkapi bagian ini: Ada wireframe dashboard
+R_T_UIUX_2_2,T_UIUX_2,Ada label area penting,30,True,label|area|penting|wireframe|figma_link/image,Lengkapi bagian ini: Ada label area penting
+R_T_UIUX_2_3,T_UIUX_2,Ada task aktif/progress,20,True,task|aktif/progress|wireframe|figma_link/image,Lengkapi bagian ini: Ada task aktif/progress
+R_T_UIUX_2_4,T_UIUX_2,Ada link/gambar hasil,15,False,link/gambar|hasil|wireframe|figma_link/image,Lengkapi bagian ini: Ada link/gambar hasil
+R_T_UIUX_3_1,T_UIUX_3,Ada component button,35,True,component|button|figma|figma_link/screenshot,Lengkapi bagian ini: Ada component button
+R_T_UIUX_3_2,T_UIUX_3,Ada component card,30,True,component|card|figma|figma_link/screenshot,Lengkapi bagian ini: Ada component card
+R_T_UIUX_3_3,T_UIUX_3,Naming rapi,20,True,naming|rapi|figma|figma_link/screenshot,Lengkapi bagian ini: Naming rapi
+R_T_UIUX_3_4,T_UIUX_3,Spacing konsisten,15,False,spacing|konsisten|figma|figma_link/screenshot,Lengkapi bagian ini: Spacing konsisten
+R_T_UIUX_4_1,T_UIUX_4,Ada minimal 3 screen,35,True,minimal|screen|prototype|figma_link/prototype,Lengkapi bagian ini: Ada minimal 3 screen
+R_T_UIUX_4_2,T_UIUX_4,Prototype bisa diklik,30,True,prototype|bisa|diklik|figma_link/prototype,Lengkapi bagian ini: Prototype bisa diklik
+R_T_UIUX_4_3,T_UIUX_4,Ada state feedback,20,True,state|feedback|prototype|figma_link/prototype,Lengkapi bagian ini: Ada state feedback
+R_T_UIUX_4_4,T_UIUX_4,Flow mudah diikuti,15,False,flow|mudah|diikuti|prototype|figma_link/prototype,Lengkapi bagian ini: Flow mudah diikuti
+R_T_UIUX_5_1,T_UIUX_5,Ada tujuan user,35,True,tujuan|user|ui/ux|diagram_link/screenshot,Lengkapi bagian ini: Ada tujuan user
+R_T_UIUX_5_2,T_UIUX_5,Ada flow step-by-step,30,True,flow|step-by-step|ui/ux|diagram_link/screenshot,Lengkapi bagian ini: Ada flow step-by-step
+R_T_UIUX_5_3,T_UIUX_5,Ada decision point,20,True,decision|point|ui/ux|diagram_link/screenshot,Lengkapi bagian ini: Ada decision point
+R_T_UIUX_5_4,T_UIUX_5,Ada output per step,15,False,output|step|ui/ux|diagram_link/screenshot,Lengkapi bagian ini: Ada output per step
+R_T_UIUX_6_1,T_UIUX_6,Ada HTML/CSS,35,True,html/css|dasar|html_css_files/screenshot,Lengkapi bagian ini: Ada HTML/CSS
+R_T_UIUX_6_2,T_UIUX_6,Layout mengikuti wireframe,30,True,layout|mengikuti|wireframe|dasar|html_css_files/screenshot,Lengkapi bagian ini: Layout mengikuti wireframe
+R_T_UIUX_6_3,T_UIUX_6,Spacing rapi,20,True,spacing|rapi|dasar|html_css_files/screenshot,Lengkapi bagian ini: Spacing rapi
+R_T_UIUX_6_4,T_UIUX_6,Ada screenshot browser,15,False,screenshot|browser|dasar|html_css_files/screenshot,Lengkapi bagian ini: Ada screenshot browser
+R_T_UIUX_7_1,T_UIUX_7,Ada interaksi klik,35,True,interaksi|klik|javascript|dasar|html_js_files/screenshot,Lengkapi bagian ini: Ada interaksi klik
+R_T_UIUX_7_2,T_UIUX_7,Ada perubahan tampilan,30,True,perubahan|tampilan|javascript|dasar|html_js_files/screenshot,Lengkapi bagian ini: Ada perubahan tampilan
+R_T_UIUX_7_3,T_UIUX_7,Ada active state,20,True,active|state|javascript|dasar|html_js_files/screenshot,Lengkapi bagian ini: Ada active state
+R_T_UIUX_7_4,T_UIUX_7,Ada screenshot hasil,15,False,screenshot|hasil|javascript|dasar|html_js_files/screenshot,Lengkapi bagian ini: Ada screenshot hasil
+R_T_UIUX_8_1,T_UIUX_8,Ada minimal 5 item backlog,35,True,minimal|item|backlog|agile_scrum|doc_link/screenshot,Lengkapi bagian ini: Ada minimal 5 item backlog
+R_T_UIUX_8_2,T_UIUX_8,Ada impact user,30,True,impact|user|agile_scrum|doc_link/screenshot,Lengkapi bagian ini: Ada impact user
+R_T_UIUX_8_3,T_UIUX_8,Ada prioritas,20,True,prioritas|agile_scrum|doc_link/screenshot,Lengkapi bagian ini: Ada prioritas
+R_T_UIUX_8_4,T_UIUX_8,Ada acceptance criteria,15,False,acceptance|criteria|agile_scrum|doc_link/screenshot,Lengkapi bagian ini: Ada acceptance criteria
+R_T_CYBE_1_1,T_CYBE_1,Ada diagram alur,35,True,diagram|alur|networking|fundamental|doc_link/diagram,Lengkapi bagian ini: Ada diagram alur
+R_T_CYBE_1_2,T_CYBE_1,Ada label IP/domain/port,30,True,label|ip/domain/port|networking|fundamental|doc_link/diagram,Lengkapi bagian ini: Ada label IP/domain/port
+R_T_CYBE_1_3,T_CYBE_1,Ada penjelasan request response,20,True,penjelasan|request|response|networking|fundamental|doc_link/diagram,Lengkapi bagian ini: Ada penjelasan request response
+R_T_CYBE_1_4,T_CYBE_1,Ada contoh URL,15,False,contoh|networking|fundamental|doc_link/diagram,Lengkapi bagian ini: Ada contoh URL
+R_T_CYBE_2_1,T_CYBE_2,Ada sample log,35,True,sample|linux|dasar|terminal_screenshot/notes,Lengkapi bagian ini: Ada sample log
+R_T_CYBE_2_2,T_CYBE_2,Ada penggunaan grep,30,True,penggunaan|grep|linux|dasar|terminal_screenshot/notes,Lengkapi bagian ini: Ada penggunaan grep
+R_T_CYBE_2_3,T_CYBE_2,Ada hitungan dengan wc atau sejenis,20,True,hitungan|dengan|atau|sejenis|linux|dasar|terminal_screenshot/notes,Lengkapi bagian ini: Ada hitungan dengan wc atau sejenis
+R_T_CYBE_2_4,T_CYBE_2,Ada screenshot terminal,15,False,screenshot|terminal|linux|dasar|terminal_screenshot/notes,Lengkapi bagian ini: Ada screenshot terminal
+R_T_CYBE_3_1,T_CYBE_3,Ada sample log,35,True,sample|analysis|log_notes/screenshot,Lengkapi bagian ini: Ada sample log
+R_T_CYBE_3_2,T_CYBE_3,Ada hitungan failed login,30,True,hitungan|failed|login|analysis|log_notes/screenshot,Lengkapi bagian ini: Ada hitungan failed login
+R_T_CYBE_3_3,T_CYBE_3,Ada identifikasi IP/user mencurigakan,20,True,identifikasi|ip/user|mencurigakan|analysis|log_notes/screenshot,Lengkapi bagian ini: Ada identifikasi IP/user mencurigakan
+R_T_CYBE_3_4,T_CYBE_3,Ada findings dan rekomendasi,15,False,findings|rekomendasi|analysis|log_notes/screenshot,Lengkapi bagian ini: Ada findings dan rekomendasi
+R_T_CYBE_4_1,T_CYBE_4,Ada tabel 10 event,35,True,tabel|event|analysis|doc_link/table_screenshot,Lengkapi bagian ini: Ada tabel 10 event
+R_T_CYBE_4_2,T_CYBE_4,Ada grouping event,30,True,grouping|event|analysis|doc_link/table_screenshot,Lengkapi bagian ini: Ada grouping event
+R_T_CYBE_4_3,T_CYBE_4,Ada prioritas alert,20,True,prioritas|alert|analysis|doc_link/table_screenshot,Lengkapi bagian ini: Ada prioritas alert
+R_T_CYBE_4_4,T_CYBE_4,Ada alasan severity,15,False,alasan|severity|analysis|doc_link/table_screenshot,Lengkapi bagian ini: Ada alasan severity
+R_T_CYBE_5_1,T_CYBE_5,Ada contoh email simulasi,35,True,contoh|email|simulasi|analysis|doc_link/checklist,Lengkapi bagian ini: Ada contoh email simulasi
+R_T_CYBE_5_2,T_CYBE_5,Ada indikator phishing,30,True,indikator|phishing|analysis|doc_link/checklist,Lengkapi bagian ini: Ada indikator phishing
+R_T_CYBE_5_3,T_CYBE_5,Ada langkah investigasi,20,True,langkah|investigasi|analysis|doc_link/checklist,Lengkapi bagian ini: Ada langkah investigasi
+R_T_CYBE_5_4,T_CYBE_5,Ada daftar bukti,15,False,daftar|bukti|analysis|doc_link/checklist,Lengkapi bagian ini: Ada daftar bukti
+R_T_CYBE_6_1,T_CYBE_6,Ada daftar port/service,35,True,daftar|port/service|networking|fundamental|notes/screenshot,Lengkapi bagian ini: Ada daftar port/service
+R_T_CYBE_6_2,T_CYBE_6,Ada klasifikasi risiko,30,True,klasifikasi|risiko|networking|fundamental|notes/screenshot,Lengkapi bagian ini: Ada klasifikasi risiko
+R_T_CYBE_6_3,T_CYBE_6,Ada alasan risiko,20,True,alasan|risiko|networking|fundamental|notes/screenshot,Lengkapi bagian ini: Ada alasan risiko
+R_T_CYBE_6_4,T_CYBE_6,Ada rekomendasi follow-up,15,False,rekomendasi|follow-up|networking|fundamental|notes/screenshot,Lengkapi bagian ini: Ada rekomendasi follow-up
+R_T_CYBE_7_1,T_CYBE_7,Ada sample log,35,True,sample|linux|dasar|script_or_command/screenshot,Lengkapi bagian ini: Ada sample log
+R_T_CYBE_7_2,T_CYBE_7,Ada command filter,30,True,command|filter|linux|dasar|script_or_command/screenshot,Lengkapi bagian ini: Ada command filter
+R_T_CYBE_7_3,T_CYBE_7,Ada file output hasil filter,20,True,file|output|hasil|filter|linux|dasar|script_or_command/screenshot,Lengkapi bagian ini: Ada file output hasil filter
+R_T_CYBE_7_4,T_CYBE_7,Ada jumlah event,15,False,jumlah|event|linux|dasar|script_or_command/screenshot,Lengkapi bagian ini: Ada jumlah event
+R_T_CYBE_8_1,T_CYBE_8,Ada executive summary,35,True,executive|summary|analysis|doc_link/report,Lengkapi bagian ini: Ada executive summary
+R_T_CYBE_8_2,T_CYBE_8,Ada tabel evidence,30,True,tabel|evidence|analysis|doc_link/report,Lengkapi bagian ini: Ada tabel evidence
+R_T_CYBE_8_3,T_CYBE_8,Ada impact/severity,20,True,impact/severity|analysis|doc_link/report,Lengkapi bagian ini: Ada impact/severity
+R_T_CYBE_8_4,T_CYBE_8,Ada next action,15,False,next|action|analysis|doc_link/report,Lengkapi bagian ini: Ada next action
+R_T_AIML_1_1,T_AIML_1,Ada function Python,35,True,function|python|dasar|python_file/screenshot,Lengkapi bagian ini: Ada function Python
+R_T_AIML_1_2,T_AIML_1,Ada minimal 5 contoh,30,True,minimal|contoh|python|dasar|python_file/screenshot,Lengkapi bagian ini: Ada minimal 5 contoh
+R_T_AIML_1_3,T_AIML_1,Ada output sebelum/sesudah,20,True,output|sebelum/sesudah|python|dasar|python_file/screenshot,Lengkapi bagian ini: Ada output sebelum/sesudah
+R_T_AIML_1_4,T_AIML_1,Ada handling text kosong,15,False,handling|text|kosong|python|dasar|python_file/screenshot,Lengkapi bagian ini: Ada handling text kosong
+R_T_AIML_2_1,T_AIML_2,Ada dataset text-label,35,True,dataset|text-label|model|training|notebook_or_script/report,Lengkapi bagian ini: Ada dataset text-label
+R_T_AIML_2_2,T_AIML_2,Ada train/test split,30,True,train/test|split|model|training|notebook_or_script/report,Lengkapi bagian ini: Ada train/test split
+R_T_AIML_2_3,T_AIML_2,Ada model baseline,20,True,model|baseline|training|notebook_or_script/report,Lengkapi bagian ini: Ada model baseline
+R_T_AIML_2_4,T_AIML_2,Ada metric/report,15,False,metric/report|model|training|notebook_or_script/report,Lengkapi bagian ini: Ada metric/report
+R_T_AIML_3_1,T_AIML_3,Ada script inference,35,True,script|inference|model|training|python_file/json_output,Lengkapi bagian ini: Ada script inference
+R_T_AIML_3_2,T_AIML_3,Ada function predict,30,True,function|predict|model|training|python_file/json_output,Lengkapi bagian ini: Ada function predict
+R_T_AIML_3_3,T_AIML_3,Output punya label/confidence,20,True,output|punya|label/confidence|model|training|python_file/json_output,Lengkapi bagian ini: Output punya label/confidence
+R_T_AIML_3_4,T_AIML_3,Ada 3 contoh input,15,False,contoh|input|model|training|python_file/json_output,Lengkapi bagian ini: Ada 3 contoh input
+R_T_AIML_4_1,T_AIML_4,Ada daftar prediksi,35,True,daftar|prediksi|mlops|doc_link/csv,Lengkapi bagian ini: Ada daftar prediksi
+R_T_AIML_4_2,T_AIML_4,Ada label salah/benar,30,True,label|salah/benar|mlops|doc_link/csv,Lengkapi bagian ini: Ada label salah/benar
+R_T_AIML_4_3,T_AIML_4,Ada pola error,20,True,pola|error|mlops|doc_link/csv,Lengkapi bagian ini: Ada pola error
+R_T_AIML_4_4,T_AIML_4,Ada penyebab,15,False,penyebab|mlops|doc_link/csv,Lengkapi bagian ini: Ada penyebab
+R_T_AIML_5_1,T_AIML_5,Ada format JSONL,35,True,format|jsonl|mlops|jsonl_example/doc,Lengkapi bagian ini: Ada format JSONL
+R_T_AIML_5_2,T_AIML_5,Ada minimal 5 contoh,30,True,minimal|contoh|mlops|jsonl_example/doc,Lengkapi bagian ini: Ada minimal 5 contoh
+R_T_AIML_5_3,T_AIML_5,Ada confidence/fallback,20,True,confidence/fallback|mlops|jsonl_example/doc,Lengkapi bagian ini: Ada confidence/fallback
+R_T_AIML_5_4,T_AIML_5,Ada threshold,15,False,threshold|mlops|jsonl_example/doc,Lengkapi bagian ini: Ada threshold
+R_T_AIML_6_1,T_AIML_6,Ada module preprocessing,35,True,module|preprocessing|python|dasar|python_module/tests_screenshot,Lengkapi bagian ini: Ada module preprocessing
+R_T_AIML_6_2,T_AIML_6,Ada fungsi reusable,30,True,fungsi|reusable|python|dasar|python_module/tests_screenshot,Lengkapi bagian ini: Ada fungsi reusable
+R_T_AIML_6_3,T_AIML_6,Dipakai di contoh lain,20,True,dipakai|contoh|lain|python|dasar|python_module/tests_screenshot,Lengkapi bagian ini: Dipakai di contoh lain
+R_T_AIML_6_4,T_AIML_6,Ada test input-output,15,False,test|input-output|python|dasar|python_module/tests_screenshot,Lengkapi bagian ini: Ada test input-output
+R_T_AIML_7_1,T_AIML_7,Ada dua model baseline,35,True,model|baseline|training|notebook/report,Lengkapi bagian ini: Ada dua model baseline
+R_T_AIML_7_2,T_AIML_7,Ada tabel metric,30,True,tabel|metric|model|training|notebook/report,Lengkapi bagian ini: Ada tabel metric
+R_T_AIML_7_3,T_AIML_7,Ada contoh prediksi,20,True,contoh|prediksi|model|training|notebook/report,Lengkapi bagian ini: Ada contoh prediksi
+R_T_AIML_7_4,T_AIML_7,Ada tradeoff,15,False,tradeoff|model|training|notebook/report,Lengkapi bagian ini: Ada tradeoff
+R_T_AIML_8_1,T_AIML_8,Ada artifact checklist,35,True,artifact|checklist|mlops|doc_link/checklist,Lengkapi bagian ini: Ada artifact checklist
+R_T_AIML_8_2,T_AIML_8,Ada env/config,30,True,env/config|mlops|doc_link/checklist,Lengkapi bagian ini: Ada env/config
+R_T_AIML_8_3,T_AIML_8,Ada command inference,20,True,command|inference|mlops|doc_link/checklist,Lengkapi bagian ini: Ada command inference
+R_T_AIML_8_4,T_AIML_8,Ada logging/fallback,15,False,logging/fallback|mlops|doc_link/checklist,Lengkapi bagian ini: Ada logging/fallback
+R_T_DATA_1_1,T_DATA_1,Ada dataset minimal 20 baris,35,True,dataset|minimal|baris|spreadsheet|spreadsheet_link/screenshot,Lengkapi bagian ini: Ada dataset minimal 20 baris
+R_T_DATA_1_2,T_DATA_1,Ada pembersihan duplikasi/kosong,30,True,pembersihan|duplikasi/kosong|spreadsheet|spreadsheet_link/screenshot,Lengkapi bagian ini: Ada pembersihan duplikasi/kosong
+R_T_DATA_1_3,T_DATA_1,Format tanggal/angka rapi,20,True,format|tanggal/angka|rapi|spreadsheet|spreadsheet_link/screenshot,Lengkapi bagian ini: Format tanggal/angka rapi
+R_T_DATA_1_4,T_DATA_1,Ada bukti before-after,15,False,bukti|before-after|spreadsheet|spreadsheet_link/screenshot,Lengkapi bagian ini: Ada bukti before-after
+R_T_DATA_2_1,T_DATA_2,Ada tabel transaksi,35,True,tabel|transaksi|dasar|sql_file/report,Lengkapi bagian ini: Ada tabel transaksi
+R_T_DATA_2_2,T_DATA_2,Ada 3 query,30,True,query|dasar|sql_file/report,Lengkapi bagian ini: Ada 3 query
+R_T_DATA_2_3,T_DATA_2,Ada aggregate/filter,20,True,aggregate/filter|dasar|sql_file/report,Lengkapi bagian ini: Ada aggregate/filter
+R_T_DATA_2_4,T_DATA_2,Ada 3 insight,15,False,insight|dasar|sql_file/report,Lengkapi bagian ini: Ada 3 insight
+R_T_DATA_3_1,T_DATA_3,Ada pivot table,35,True,pivot|table|excel|spreadsheet_link/screenshot,Lengkapi bagian ini: Ada pivot table
+R_T_DATA_3_2,T_DATA_3,Ada total/average,30,True,total/average|excel|spreadsheet_link/screenshot,Lengkapi bagian ini: Ada total/average
+R_T_DATA_3_3,T_DATA_3,Ada perbandingan kategori/bulan,20,True,perbandingan|kategori/bulan|excel|spreadsheet_link/screenshot,Lengkapi bagian ini: Ada perbandingan kategori/bulan
+R_T_DATA_3_4,T_DATA_3,Ada 3 insight,15,False,insight|excel|spreadsheet_link/screenshot,Lengkapi bagian ini: Ada 3 insight
+R_T_DATA_4_1,T_DATA_4,Ada CSV data,35,True,data|python|dasar|python_file/screenshot,Lengkapi bagian ini: Ada CSV data
+R_T_DATA_4_2,T_DATA_4,Ada script Python,30,True,script|python|dasar|python_file/screenshot,Lengkapi bagian ini: Ada script Python
+R_T_DATA_4_3,T_DATA_4,Ada summary stats,20,True,summary|stats|python|dasar|python_file/screenshot,Lengkapi bagian ini: Ada summary stats
+R_T_DATA_4_4,T_DATA_4,Ada top category,15,False,category|python|dasar|python_file/screenshot,Lengkapi bagian ini: Ada top category
+R_T_DATA_5_1,T_DATA_5,Ada KPI utama,35,True,utama|power|dashboard_screenshot/link,Lengkapi bagian ini: Ada KPI utama
+R_T_DATA_5_2,T_DATA_5,Ada chart tren,30,True,chart|tren|power|dashboard_screenshot/link,Lengkapi bagian ini: Ada chart tren
+R_T_DATA_5_3,T_DATA_5,Ada chart kategori,20,True,chart|kategori|power|dashboard_screenshot/link,Lengkapi bagian ini: Ada chart kategori
+R_T_DATA_5_4,T_DATA_5,Ada insight,15,False,insight|power|dashboard_screenshot/link,Lengkapi bagian ini: Ada insight
+R_T_DATA_6_1,T_DATA_6,Ada visual tren,35,True,visual|tren|tableau|dashboard_screenshot/link,Lengkapi bagian ini: Ada visual tren
+R_T_DATA_6_2,T_DATA_6,Ada identifikasi outlier,30,True,identifikasi|outlier|tableau|dashboard_screenshot/link,Lengkapi bagian ini: Ada identifikasi outlier
+R_T_DATA_6_3,T_DATA_6,Ada annotation/catatan,20,True,annotation/catatan|tableau|dashboard_screenshot/link,Lengkapi bagian ini: Ada annotation/catatan
+R_T_DATA_6_4,T_DATA_6,Ada rekomendasi,15,False,rekomendasi|tableau|dashboard_screenshot/link,Lengkapi bagian ini: Ada rekomendasi
+R_T_DATA_7_1,T_DATA_7,Ada masalah bisnis,35,True,masalah|bisnis|problem|solving|doc_link/screenshot,Lengkapi bagian ini: Ada masalah bisnis
+R_T_DATA_7_2,T_DATA_7,Ada metric utama,30,True,metric|utama|problem|solving|doc_link/screenshot,Lengkapi bagian ini: Ada metric utama
+R_T_DATA_7_3,T_DATA_7,Ada data requirement,20,True,data|requirement|problem|solving|doc_link/screenshot,Lengkapi bagian ini: Ada data requirement
+R_T_DATA_7_4,T_DATA_7,Ada langkah analisis,15,False,langkah|analisis|problem|solving|doc_link/screenshot,Lengkapi bagian ini: Ada langkah analisis
+R_T_DATA_8_1,T_DATA_8,Ada diagram ETL,35,True,diagram|diagram_doc/screenshot,Lengkapi bagian ini: Ada diagram ETL
+R_T_DATA_8_2,T_DATA_8,Ada mapping kolom,30,True,mapping|kolom|diagram_doc/screenshot,Lengkapi bagian ini: Ada mapping kolom
+R_T_DATA_8_3,T_DATA_8,Ada data quality check,20,True,data|quality|check|diagram_doc/screenshot,Lengkapi bagian ini: Ada data quality check
+R_T_DATA_8_4,T_DATA_8,Ada jadwal proses,15,False,jadwal|proses|diagram_doc/screenshot,Lengkapi bagian ini: Ada jadwal proses

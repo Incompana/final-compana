@@ -1,0 +1,120 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://compana.local/schemas/task_rubric.schema.json",
+  "title": "Compana Task Rubric Config",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "rubric_version",
+    "dimensions",
+    "tasks"
+  ],
+  "properties": {
+    "rubric_version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "dimensions": {
+      "type": "array",
+      "minItems": 5,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "description"],
+        "properties": {
+          "id": {
+            "type": "string",
+            "enum": [
+              "correctness",
+              "completeness",
+              "clarity",
+              "technical_accuracy",
+              "best_practice"
+            ]
+          },
+          "description": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "tasks": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "task_id",
+          "role",
+          "title",
+          "task_prompt",
+          "dimension_weights"
+        ],
+        "properties": {
+          "task_id": {
+            "type": "string",
+            "minLength": 3
+          },
+          "role": {
+            "type": "string",
+            "enum": [
+              "cybersecurity",
+              "frontend",
+              "backend",
+              "data_analyst",
+              "uiux",
+              "unclear"
+            ]
+          },
+          "title": {
+            "type": "string",
+            "minLength": 1
+          },
+          "task_prompt": {
+            "type": "string",
+            "minLength": 1
+          },
+          "dimension_weights": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "correctness",
+              "completeness",
+              "clarity",
+              "technical_accuracy",
+              "best_practice"
+            ],
+            "properties": {
+              "correctness": {
+                "type": "number",
+                "minimum": 0
+              },
+              "completeness": {
+                "type": "number",
+                "minimum": 0
+              },
+              "clarity": {
+                "type": "number",
+                "minimum": 0
+              },
+              "technical_accuracy": {
+                "type": "number",
+                "minimum": 0
+              },
+              "best_practice": {
+                "type": "number",
+                "minimum": 0
+              }
+            }
+          },
+          "evaluation_hints": {
+            "type": "object",
+            "additionalProperties": true
+          }
+        }
+      }
+    }
+  }
+}
