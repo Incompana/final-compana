@@ -1,0 +1,68 @@
+{
+  "intent": [
+    "action_plan",
+    "build_portfolio",
+    "evaluate_task",
+    "learn_new",
+    "skill_gap",
+    "switch_career",
+    "validate_direction"
+  ],
+  "domain_interest": [
+    "ai_ml",
+    "backend",
+    "cyber_security",
+    "data",
+    "devops",
+    "frontend",
+    "ui_ux"
+  ],
+  "target_role": [
+    "backend_developer",
+    "data_analyst",
+    "frontend_developer",
+    "machine_learning_engineer",
+    "soc_analyst",
+    "ui_ux_designer"
+  ],
+  "problem_category": [
+    "ai_ml_task",
+    "backend_task",
+    "beginner_lost",
+    "confidence_issue",
+    "cyber_security_task",
+    "data_task",
+    "devops_task",
+    "direction_confused",
+    "frontend_task",
+    "no_confidence_issue",
+    "no_foundation_issue",
+    "no_portfolio_issue",
+    "no_starting_point_issue",
+    "no_time_issue",
+    "overwhelmed",
+    "skill_gap_confusion_issue",
+    "too_many_options_issue",
+    "ui_ux_task"
+  ],
+  "current_level": [
+    "advanced",
+    "basic",
+    "beginner",
+    "intermediate",
+    "zero"
+  ],
+  "blocker_type": [
+    "no_confidence",
+    "no_foundation",
+    "no_portfolio",
+    "no_starting_point",
+    "no_time",
+    "none",
+    "skill_gap_confusion",
+    "too_many_options"
+  ],
+  "persona_type": [
+    "learner"
+  ]
+}

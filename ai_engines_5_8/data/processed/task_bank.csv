@@ -1,0 +1,49 @@
+id_tugas,judul,deskripsi,keahlian_terkait,sumber
+T_FRONT_1,Bangun Landing Page Portfolio Pertamamu,"Buat halaman portfolio satu layar yang menampilkan nama, ringkasan diri, daftar skill, dan satu tombol call-to-action.",HTML dasar,compana_enriched_synthetic
+T_FRONT_2,Rapikan Portfolio dengan Layout Responsif,"Tambahkan CSS agar halaman portfolio memiliki spacing rapi, warna konsisten, dan tetap nyaman dilihat di mobile.",CSS dasar,compana_enriched_synthetic
+T_FRONT_3,Buat Tombol Interaktif dengan JavaScript,Tambahkan interaksi tombol yang mengubah teks/status halaman saat diklik menggunakan JavaScript dasar.,JavaScript dasar,compana_enriched_synthetic
+T_FRONT_4,Buat Komponen Card Responsif,Buat 3 card sederhana untuk menampilkan project/skill dengan layout yang menyesuaikan lebar layar.,CSS dasar,compana_enriched_synthetic
+T_FRONT_5,Hubungkan Form ke API Dummy dengan Fetch,Buat form kecil yang mengirim data ke API dummy atau endpoint simulasi lalu menampilkan response JSON.,JavaScript dasar,compana_enriched_synthetic
+T_FRONT_6,Dokumentasikan Project Frontend di GitHub,"Susun repository kecil berisi project frontend, README, cara menjalankan, dan screenshot hasil.",Git dan GitHub,compana_enriched_synthetic
+T_FRONT_7,Ubah Data Card menjadi Typed Object,Buat contoh kecil TypeScript untuk mendefinisikan tipe data card dan merender daftar data secara aman.,TypeScript,compana_enriched_synthetic
+T_FRONT_8,Audit dan Perbaiki State UI Sederhana,"Buat mini UI yang memiliki state kosong, loading, sukses, dan error agar user flow lebih jelas.",JavaScript dasar,compana_enriched_synthetic
+T_BACK_1,Buat Fungsi Validasi Payload API,"Buat script JavaScript yang memvalidasi payload todo sebelum disimpan: title wajib, status hanya pending/done, dan error ditampilkan jelas.",JavaScript dasar,compana_enriched_synthetic
+T_BACK_2,Buat Query SQL untuk Laporan Todo,"Buat skema tabel todo dan query untuk menampilkan todo berdasarkan status, jumlah todo per status, serta update status.",SQL dasar,compana_enriched_synthetic
+T_BACK_3,Buat REST API Todo dengan Validasi Input,"Implementasikan endpoint GET dan POST untuk resource todo. Jelaskan request body, response JSON, dan error handling minimal.",REST API,compana_enriched_synthetic
+T_BACK_4,Buat Repository Portfolio Backend,"Susun repository GitHub untuk mini API backend: README, struktur folder, contoh request, dan screenshot hasil endpoint.",Git dan GitHub,compana_enriched_synthetic
+T_BACK_5,Buat Script Python Ringkasan Todo,Buat script Python yang memvalidasi list todo dan menghitung ringkasan pending/done.,Python dasar,compana_enriched_synthetic
+T_BACK_6,Buat Program Java CRUD Todo Console,"Buat program Java console untuk tambah todo, lihat daftar todo, ubah status, dan menampilkan output yang jelas.",Java,compana_enriched_synthetic
+T_BACK_7,Containerize Mini API Backend,Buat Dockerfile untuk menjalankan mini API backend dan dokumentasikan cara build/run container.,Docker,compana_enriched_synthetic
+T_BACK_8,Buat Checklist CI/CD untuk API Backend,Susun workflow sederhana untuk menjalankan test/build backend otomatis dan catat status sukses/gagal.,ci_cd,compana_enriched_synthetic
+T_UIUX_1,Audit UI Satu Halaman dengan Prinsip Dasar,"Pilih satu halaman aplikasi dan nilai hierarki visual, konsistensi, spacing, dan readability.",prinsip UI,compana_enriched_synthetic
+T_UIUX_2,Rancang Wireframe Low-Fidelity Dashboard,"Buat wireframe sederhana untuk dashboard career companion berisi ringkasan status, task aktif, dan progress.",wireframe,compana_enriched_synthetic
+T_UIUX_3,Buat Component Button dan Card di Figma,Buat component button dan card dengan variant sederhana agar desain lebih konsisten.,Figma,compana_enriched_synthetic
+T_UIUX_4,Buat Prototype Flow Submit Task,Buat prototype sederhana dari halaman action plan ke detail task lalu feedback setelah submit.,prototype,compana_enriched_synthetic
+T_UIUX_5,Buat User Flow Onboarding Aplikasi Karir,Petakan alur user dari input kebingungan sampai mendapat action plan pertama.,UI/UX,compana_enriched_synthetic
+T_UIUX_6,Terjemahkan Wireframe ke Layout HTML CSS,Buat versi HTML/CSS sederhana dari wireframe dashboard agar struktur visual bisa diuji di browser.,CSS dasar,compana_enriched_synthetic
+T_UIUX_7,Buat Interaksi Prototype Ringan di Browser,Tambahkan interaksi sederhana seperti tab/filter pada layout HTML agar flow terasa hidup.,JavaScript dasar,compana_enriched_synthetic
+T_UIUX_8,Susun Backlog Perbaikan UX Prioritas,"Ubah hasil audit UI menjadi backlog kecil berisi masalah, dampak user, dan prioritas pengerjaan.",agile_scrum,compana_enriched_synthetic
+T_CYBE_1,Petakan Alur Koneksi HTTP Sederhana,Buat catatan visual tentang perjalanan request HTTP dari browser ke server dan kembali ke user.,networking fundamental,compana_enriched_synthetic
+T_CYBE_2,Jalankan Perintah Linux untuk Investigasi Awal,"Gunakan perintah Linux dasar untuk melihat file log simulasi, mencari keyword, dan menghitung temuan sederhana.",Linux dasar,compana_enriched_synthetic
+T_CYBE_3,Analisis Pola Login Mencurigakan dari Sample Log,Analisis sample authentication log untuk menemukan IP/user dengan pola failed login berulang dan tulis rekomendasi tindak lanjut.,log analysis,compana_enriched_synthetic
+T_CYBE_4,Buat Ringkasan Alert SOC dari 10 Event,Kelompokkan 10 event keamanan simulasi menjadi alert prioritas rendah/sedang/tinggi dengan alasan singkat.,log analysis,compana_enriched_synthetic
+T_CYBE_5,Petakan Alur Investigasi Phishing Sederhana,Buat checklist investigasi phishing dari email mencurigakan sampai rekomendasi containment.,log analysis,compana_enriched_synthetic
+T_CYBE_6,Baca Output Nmap Simulasi dan Tentukan Risiko,Analisis output nmap simulasi untuk mengidentifikasi port terbuka dan risiko dasar yang perlu ditindaklanjuti.,networking fundamental,compana_enriched_synthetic
+T_CYBE_7,Buat Script Filter Log Sederhana,Buat command atau script kecil untuk memfilter event failed login dan menyimpan hasilnya ke file output.,Linux dasar,compana_enriched_synthetic
+T_CYBE_8,Tulis Mini Incident Report dari Temuan Log,"Ubah hasil analisis log menjadi incident report pendek berisi summary, evidence, impact, dan next action.",log analysis,compana_enriched_synthetic
+T_AIML_1,Buat Script Python untuk Membersihkan Teks,"Buat script Python kecil yang membersihkan teks user menjadi lowercase, trim spasi, dan menghapus karakter kosong berlebih.",Python dasar,compana_enriched_synthetic
+T_AIML_2,Latih Classifier Baseline untuk Problem Category,Buat notebook/script baseline sederhana untuk memprediksi problem category dari teks memakai data kecil.,model training,compana_enriched_synthetic
+T_AIML_3,Buat Script Inference Model Sederhana,"Buat script inference yang menerima teks input dan mengembalikan label, confidence, dan top prediction.",model training,compana_enriched_synthetic
+T_AIML_4,Catat Error Analysis dari Prediksi Model,"Buat dokumen error analysis berisi prediksi salah, pola penyebab, dan rencana perbaikan dataset/model.",MLOps,compana_enriched_synthetic
+T_AIML_5,Buat Format Logging Prediksi Model,"Susun format JSONL untuk logging input, label prediksi, confidence, fallback trigger, dan timestamp.",MLOps,compana_enriched_synthetic
+T_AIML_6,Buat Pipeline Preprocessing Reusable,Buat module preprocessing yang bisa dipakai ulang untuk training dan inference agar transformasi teks konsisten.,Python dasar,compana_enriched_synthetic
+T_AIML_7,Bandingkan Dua Baseline Model,Bandingkan dua pendekatan model sederhana dan pilih yang paling stabil berdasarkan metric dan error analysis.,model training,compana_enriched_synthetic
+T_AIML_8,Buat Checklist Deploy Model Siap Produksi,"Susun checklist deployment model berisi artifact, inference script, env config, logging, dan fallback.",MLOps,compana_enriched_synthetic
+T_DATA_1,Bersihkan Dataset Spreadsheet Kecil,"Bersihkan data penjualan sederhana dari duplikasi, kolom kosong, dan format angka/tanggal yang tidak konsisten.",spreadsheet,compana_enriched_synthetic
+T_DATA_2,Tulis Insight dari Query SQL Sederhana,Gunakan SQL untuk menjawab 3 pertanyaan bisnis kecil dari tabel transaksi simulasi.,SQL dasar,compana_enriched_synthetic
+T_DATA_3,Buat Pivot Summary Penjualan,Buat ringkasan penjualan per kategori atau bulan memakai pivot table dan tulis insight utama.,Excel,compana_enriched_synthetic
+T_DATA_4,Buat Ringkasan Data dengan Python,"Gunakan Python untuk membaca dataset kecil, menghitung summary, dan menampilkan insight sederhana.",Python dasar,compana_enriched_synthetic
+T_DATA_5,Buat Dashboard Ringkas dari Data Penjualan,"Buat dashboard sederhana berisi KPI total penjualan, kategori teratas, dan tren waktu.",Power BI,compana_enriched_synthetic
+T_DATA_6,Visualisasikan Tren dan Outlier Data,Buat visual sederhana untuk menemukan tren dan outlier lalu jelaskan apa yang perlu ditindaklanjuti.,Tableau,compana_enriched_synthetic
+T_DATA_7,Ubah Pertanyaan Bisnis menjadi Analisis Data,"Ambil satu masalah bisnis sederhana lalu turunkan menjadi metric, data yang dibutuhkan, dan analisis yang harus dilakukan.",problem solving,compana_enriched_synthetic
+T_DATA_8,Rancang Alur ETL Mini untuk Dataset Harian,Buat rancangan ETL sederhana dari source CSV harian ke tabel bersih dan laporan mingguan.,ETL,compana_enriched_synthetic

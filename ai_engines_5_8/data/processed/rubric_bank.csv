@@ -1,0 +1,193 @@
+id_rubrik,keahlian,kriteria,skor_min,skor_max
+R_T_FRONT_1_1,HTML dasar,Ada struktur HTML semantic,0,35
+R_T_FRONT_1_2,HTML dasar,Ada heading dan section profil,0,30
+R_T_FRONT_1_3,HTML dasar,Ada tombol call-to-action,0,20
+R_T_FRONT_1_4,HTML dasar,Ada screenshot hasil browser,0,15
+R_T_FRONT_2_1,CSS dasar,CSS terhubung ke HTML,0,35
+R_T_FRONT_2_2,CSS dasar,Spacing dan warna konsisten,0,30
+R_T_FRONT_2_3,CSS dasar,Layout tidak pecah di mobile,0,20
+R_T_FRONT_2_4,CSS dasar,Ada screenshot hasil,0,15
+R_T_FRONT_3_1,JavaScript dasar,JavaScript terhubung ke HTML,0,35
+R_T_FRONT_3_2,JavaScript dasar,Ada querySelector,0,30
+R_T_FRONT_3_3,JavaScript dasar,Ada addEventListener,0,20
+R_T_FRONT_3_4,JavaScript dasar,Ada perubahan tampilan setelah klik,0,15
+R_T_FRONT_4_1,CSS dasar,Ada minimal 3 card,0,35
+R_T_FRONT_4_2,CSS dasar,Layout memakai flex/grid,0,30
+R_T_FRONT_4_3,CSS dasar,Card tetap terbaca di mobile,0,20
+R_T_FRONT_4_4,CSS dasar,Ada screenshot hasil,0,15
+R_T_FRONT_5_1,JavaScript dasar,Ada form input,0,35
+R_T_FRONT_5_2,JavaScript dasar,Ada fetch POST,0,30
+R_T_FRONT_5_3,JavaScript dasar,Ada handling loading/error,0,20
+R_T_FRONT_5_4,JavaScript dasar,Response JSON tampil di UI,0,15
+R_T_FRONT_6_1,Git dan GitHub,Ada link GitHub,0,35
+R_T_FRONT_6_2,Git dan GitHub,README menjelaskan tujuan,0,30
+R_T_FRONT_6_3,Git dan GitHub,Ada cara menjalankan/membuka,0,20
+R_T_FRONT_6_4,Git dan GitHub,Ada screenshot hasil,0,15
+R_T_FRONT_7_1,TypeScript,Ada type/interface,0,35
+R_T_FRONT_7_2,TypeScript,Ada array data typed,0,30
+R_T_FRONT_7_3,TypeScript,Ada function memakai tipe,0,20
+R_T_FRONT_7_4,TypeScript,Ada bukti compile/output,0,15
+R_T_FRONT_8_1,JavaScript dasar,Ada empty state,0,35
+R_T_FRONT_8_2,JavaScript dasar,Ada loading state,0,30
+R_T_FRONT_8_3,JavaScript dasar,Ada success/error state,0,20
+R_T_FRONT_8_4,JavaScript dasar,Ada dokumentasi alur,0,15
+R_T_BACK_1_1,JavaScript dasar,Ada function validasi,0,35
+R_T_BACK_1_2,JavaScript dasar,Ada minimal 2 contoh test payload,0,30
+R_T_BACK_1_3,JavaScript dasar,Error message jelas,0,20
+R_T_BACK_1_4,JavaScript dasar,Ada screenshot/link hasil run,0,15
+R_T_BACK_2_1,SQL dasar,Ada CREATE TABLE,0,35
+R_T_BACK_2_2,SQL dasar,Ada INSERT minimal 5 data,0,30
+R_T_BACK_2_3,SQL dasar,Ada SELECT WHERE,0,20
+R_T_BACK_2_4,SQL dasar,Ada GROUP BY atau summary,0,15
+R_T_BACK_3_1,REST API,Ada endpoint GET dan POST,0,35
+R_T_BACK_3_2,REST API,Response berbentuk JSON,0,30
+R_T_BACK_3_3,REST API,Ada validasi input,0,20
+R_T_BACK_3_4,REST API,Ada error response saat payload salah,0,15
+R_T_BACK_4_1,Git dan GitHub,Ada link GitHub,0,35
+R_T_BACK_4_2,Git dan GitHub,README menjelaskan project,0,30
+R_T_BACK_4_3,Git dan GitHub,Ada contoh endpoint/request response,0,20
+R_T_BACK_4_4,Git dan GitHub,Ada screenshot endpoint,0,15
+R_T_BACK_5_1,Python dasar,Ada list/dictionary todo,0,35
+R_T_BACK_5_2,Python dasar,Ada function validasi,0,30
+R_T_BACK_5_3,Python dasar,Ada summary status,0,20
+R_T_BACK_5_4,Python dasar,Ada handling data invalid,0,15
+R_T_BACK_6_1,Java,Ada class Todo,0,35
+R_T_BACK_6_2,Java,Ada ArrayList atau struktur data sejenis,0,30
+R_T_BACK_6_3,Java,Ada fitur tambah dan lihat,0,20
+R_T_BACK_6_4,Java,Ada fitur ubah status,0,15
+R_T_BACK_7_1,Docker,Ada Dockerfile,0,35
+R_T_BACK_7_2,Docker,Container berhasil run,0,30
+R_T_BACK_7_3,Docker,Endpoint bisa ditest,0,20
+R_T_BACK_7_4,Docker,README berisi command build/run,0,15
+R_T_BACK_8_1,,Ada workflow file,0,35
+R_T_BACK_8_2,,Ada command test/build,0,30
+R_T_BACK_8_3,,Workflow pernah dijalankan,0,20
+R_T_BACK_8_4,,Ada screenshot status,0,15
+R_T_UIUX_1_1,prinsip UI,Ada screenshot halaman,0,35
+R_T_UIUX_1_2,prinsip UI,Ada minimal 3 temuan baik,0,30
+R_T_UIUX_1_3,prinsip UI,Ada minimal 3 temuan perbaikan,0,20
+R_T_UIUX_1_4,prinsip UI,Alasan memakai prinsip UI,0,15
+R_T_UIUX_2_1,wireframe,Ada wireframe dashboard,0,35
+R_T_UIUX_2_2,wireframe,Ada label area penting,0,30
+R_T_UIUX_2_3,wireframe,Ada task aktif/progress,0,20
+R_T_UIUX_2_4,wireframe,Ada link/gambar hasil,0,15
+R_T_UIUX_3_1,Figma,Ada component button,0,35
+R_T_UIUX_3_2,Figma,Ada component card,0,30
+R_T_UIUX_3_3,Figma,Naming rapi,0,20
+R_T_UIUX_3_4,Figma,Spacing konsisten,0,15
+R_T_UIUX_4_1,prototype,Ada minimal 3 screen,0,35
+R_T_UIUX_4_2,prototype,Prototype bisa diklik,0,30
+R_T_UIUX_4_3,prototype,Ada state feedback,0,20
+R_T_UIUX_4_4,prototype,Flow mudah diikuti,0,15
+R_T_UIUX_5_1,UI/UX,Ada tujuan user,0,35
+R_T_UIUX_5_2,UI/UX,Ada flow step-by-step,0,30
+R_T_UIUX_5_3,UI/UX,Ada decision point,0,20
+R_T_UIUX_5_4,UI/UX,Ada output per step,0,15
+R_T_UIUX_6_1,CSS dasar,Ada HTML/CSS,0,35
+R_T_UIUX_6_2,CSS dasar,Layout mengikuti wireframe,0,30
+R_T_UIUX_6_3,CSS dasar,Spacing rapi,0,20
+R_T_UIUX_6_4,CSS dasar,Ada screenshot browser,0,15
+R_T_UIUX_7_1,JavaScript dasar,Ada interaksi klik,0,35
+R_T_UIUX_7_2,JavaScript dasar,Ada perubahan tampilan,0,30
+R_T_UIUX_7_3,JavaScript dasar,Ada active state,0,20
+R_T_UIUX_7_4,JavaScript dasar,Ada screenshot hasil,0,15
+R_T_UIUX_8_1,,Ada minimal 5 item backlog,0,35
+R_T_UIUX_8_2,,Ada impact user,0,30
+R_T_UIUX_8_3,,Ada prioritas,0,20
+R_T_UIUX_8_4,,Ada acceptance criteria,0,15
+R_T_CYBE_1_1,networking fundamental,Ada diagram alur,0,35
+R_T_CYBE_1_2,networking fundamental,Ada label IP/domain/port,0,30
+R_T_CYBE_1_3,networking fundamental,Ada penjelasan request response,0,20
+R_T_CYBE_1_4,networking fundamental,Ada contoh URL,0,15
+R_T_CYBE_2_1,Linux dasar,Ada sample log,0,35
+R_T_CYBE_2_2,Linux dasar,Ada penggunaan grep,0,30
+R_T_CYBE_2_3,Linux dasar,Ada hitungan dengan wc atau sejenis,0,20
+R_T_CYBE_2_4,Linux dasar,Ada screenshot terminal,0,15
+R_T_CYBE_3_1,log analysis,Ada sample log,0,35
+R_T_CYBE_3_2,log analysis,Ada hitungan failed login,0,30
+R_T_CYBE_3_3,log analysis,Ada identifikasi IP/user mencurigakan,0,20
+R_T_CYBE_3_4,log analysis,Ada findings dan rekomendasi,0,15
+R_T_CYBE_4_1,log analysis,Ada tabel 10 event,0,35
+R_T_CYBE_4_2,log analysis,Ada grouping event,0,30
+R_T_CYBE_4_3,log analysis,Ada prioritas alert,0,20
+R_T_CYBE_4_4,log analysis,Ada alasan severity,0,15
+R_T_CYBE_5_1,log analysis,Ada contoh email simulasi,0,35
+R_T_CYBE_5_2,log analysis,Ada indikator phishing,0,30
+R_T_CYBE_5_3,log analysis,Ada langkah investigasi,0,20
+R_T_CYBE_5_4,log analysis,Ada daftar bukti,0,15
+R_T_CYBE_6_1,networking fundamental,Ada daftar port/service,0,35
+R_T_CYBE_6_2,networking fundamental,Ada klasifikasi risiko,0,30
+R_T_CYBE_6_3,networking fundamental,Ada alasan risiko,0,20
+R_T_CYBE_6_4,networking fundamental,Ada rekomendasi follow-up,0,15
+R_T_CYBE_7_1,Linux dasar,Ada sample log,0,35
+R_T_CYBE_7_2,Linux dasar,Ada command filter,0,30
+R_T_CYBE_7_3,Linux dasar,Ada file output hasil filter,0,20
+R_T_CYBE_7_4,Linux dasar,Ada jumlah event,0,15
+R_T_CYBE_8_1,log analysis,Ada executive summary,0,35
+R_T_CYBE_8_2,log analysis,Ada tabel evidence,0,30
+R_T_CYBE_8_3,log analysis,Ada impact/severity,0,20
+R_T_CYBE_8_4,log analysis,Ada next action,0,15
+R_T_AIML_1_1,Python dasar,Ada function Python,0,35
+R_T_AIML_1_2,Python dasar,Ada minimal 5 contoh,0,30
+R_T_AIML_1_3,Python dasar,Ada output sebelum/sesudah,0,20
+R_T_AIML_1_4,Python dasar,Ada handling text kosong,0,15
+R_T_AIML_2_1,model training,Ada dataset text-label,0,35
+R_T_AIML_2_2,model training,Ada train/test split,0,30
+R_T_AIML_2_3,model training,Ada model baseline,0,20
+R_T_AIML_2_4,model training,Ada metric/report,0,15
+R_T_AIML_3_1,model training,Ada script inference,0,35
+R_T_AIML_3_2,model training,Ada function predict,0,30
+R_T_AIML_3_3,model training,Output punya label/confidence,0,20
+R_T_AIML_3_4,model training,Ada 3 contoh input,0,15
+R_T_AIML_4_1,MLOps,Ada daftar prediksi,0,35
+R_T_AIML_4_2,MLOps,Ada label salah/benar,0,30
+R_T_AIML_4_3,MLOps,Ada pola error,0,20
+R_T_AIML_4_4,MLOps,Ada penyebab,0,15
+R_T_AIML_5_1,MLOps,Ada format JSONL,0,35
+R_T_AIML_5_2,MLOps,Ada minimal 5 contoh,0,30
+R_T_AIML_5_3,MLOps,Ada confidence/fallback,0,20
+R_T_AIML_5_4,MLOps,Ada threshold,0,15
+R_T_AIML_6_1,Python dasar,Ada module preprocessing,0,35
+R_T_AIML_6_2,Python dasar,Ada fungsi reusable,0,30
+R_T_AIML_6_3,Python dasar,Dipakai di contoh lain,0,20
+R_T_AIML_6_4,Python dasar,Ada test input-output,0,15
+R_T_AIML_7_1,model training,Ada dua model baseline,0,35
+R_T_AIML_7_2,model training,Ada tabel metric,0,30
+R_T_AIML_7_3,model training,Ada contoh prediksi,0,20
+R_T_AIML_7_4,model training,Ada tradeoff,0,15
+R_T_AIML_8_1,MLOps,Ada artifact checklist,0,35
+R_T_AIML_8_2,MLOps,Ada env/config,0,30
+R_T_AIML_8_3,MLOps,Ada command inference,0,20
+R_T_AIML_8_4,MLOps,Ada logging/fallback,0,15
+R_T_DATA_1_1,spreadsheet,Ada dataset minimal 20 baris,0,35
+R_T_DATA_1_2,spreadsheet,Ada pembersihan duplikasi/kosong,0,30
+R_T_DATA_1_3,spreadsheet,Format tanggal/angka rapi,0,20
+R_T_DATA_1_4,spreadsheet,Ada bukti before-after,0,15
+R_T_DATA_2_1,SQL dasar,Ada tabel transaksi,0,35
+R_T_DATA_2_2,SQL dasar,Ada 3 query,0,30
+R_T_DATA_2_3,SQL dasar,Ada aggregate/filter,0,20
+R_T_DATA_2_4,SQL dasar,Ada 3 insight,0,15
+R_T_DATA_3_1,Excel,Ada pivot table,0,35
+R_T_DATA_3_2,Excel,Ada total/average,0,30
+R_T_DATA_3_3,Excel,Ada perbandingan kategori/bulan,0,20
+R_T_DATA_3_4,Excel,Ada 3 insight,0,15
+R_T_DATA_4_1,Python dasar,Ada CSV data,0,35
+R_T_DATA_4_2,Python dasar,Ada script Python,0,30
+R_T_DATA_4_3,Python dasar,Ada summary stats,0,20
+R_T_DATA_4_4,Python dasar,Ada top category,0,15
+R_T_DATA_5_1,Power BI,Ada KPI utama,0,35
+R_T_DATA_5_2,Power BI,Ada chart tren,0,30
+R_T_DATA_5_3,Power BI,Ada chart kategori,0,20
+R_T_DATA_5_4,Power BI,Ada insight,0,15
+R_T_DATA_6_1,Tableau,Ada visual tren,0,35
+R_T_DATA_6_2,Tableau,Ada identifikasi outlier,0,30
+R_T_DATA_6_3,Tableau,Ada annotation/catatan,0,20
+R_T_DATA_6_4,Tableau,Ada rekomendasi,0,15
+R_T_DATA_7_1,problem solving,Ada masalah bisnis,0,35
+R_T_DATA_7_2,problem solving,Ada metric utama,0,30
+R_T_DATA_7_3,problem solving,Ada data requirement,0,20
+R_T_DATA_7_4,problem solving,Ada langkah analisis,0,15
+R_T_DATA_8_1,ETL,Ada diagram ETL,0,35
+R_T_DATA_8_2,ETL,Ada mapping kolom,0,30
+R_T_DATA_8_3,ETL,Ada data quality check,0,20
+R_T_DATA_8_4,ETL,Ada jadwal proses,0,15

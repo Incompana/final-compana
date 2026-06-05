@@ -1,0 +1,5 @@
+roles:
+  frontend_developer: "Pengembang Frontend"
+  backend_developer: "Pengembang Backend"
+  cyber_security_analyst: "Analis Keamanan Siber"
+  data_analyst: "Analis Data"

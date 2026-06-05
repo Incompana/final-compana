@@ -1,0 +1,155 @@
+{
+  "status_thresholds": {
+    "passed": 80,
+    "needs_revision": 60,
+    "redo_task": 0
+  },
+  "default_role": "backend_developer",
+  "roles": {
+    "backend_developer": {
+      "label": "Backend Developer",
+      "score_format": [
+        {
+          "key": "functionality",
+          "label": "Fungsionalitas",
+          "weight": 40,
+          "keywords": ["endpoint", "api", "response", "request", "crud", "validasi", "function", "class", "docker", "run"]
+        },
+        {
+          "key": "documentation_evidence",
+          "label": "Dokumentasi & Bukti",
+          "weight": 30,
+          "keywords": ["readme", "repository", "github", "screenshot", "terminal", "link", "struktur", "contoh"]
+        },
+        {
+          "key": "technical_quality",
+          "label": "Kualitas Teknis",
+          "weight": 20,
+          "keywords": ["error", "status", "json", "folder", "arraylist", "method", "sql", "query", "container"]
+        },
+        {
+          "key": "reflection",
+          "label": "Refleksi Proses",
+          "weight": 10,
+          "keywords": ["jelaskan", "catatan", "proses", "hasil", "kendala", "risiko"]
+        }
+      ]
+    },
+    "frontend_developer": {
+      "label": "Frontend Developer",
+      "score_format": [
+        {
+          "key": "ui_functionality",
+          "label": "Fungsi UI",
+          "weight": 35,
+          "keywords": ["button", "event", "filter", "dom", "state", "cta", "link"]
+        },
+        {
+          "key": "layout_responsiveness",
+          "label": "Layout Responsif",
+          "weight": 25,
+          "keywords": ["responsive", "mobile", "desktop", "layout", "spacing", "grid", "flex"]
+        },
+        {
+          "key": "code_quality",
+          "label": "Kualitas Kode",
+          "weight": 25,
+          "keywords": ["html", "css", "javascript", "semantic", "class", "function"]
+        },
+        {
+          "key": "evidence",
+          "label": "Bukti Hasil",
+          "weight": 15,
+          "keywords": ["screenshot", "github", "link", "demo", "browser"]
+        }
+      ]
+    },
+    "ui_ux_designer": {
+      "label": "UI/UX Designer",
+      "score_format": [
+        {
+          "key": "user_flow",
+          "label": "Alur Pengguna",
+          "weight": 35,
+          "keywords": ["flow", "alur", "screen", "frame", "prototype", "cta"]
+        },
+        {
+          "key": "visual_clarity",
+          "label": "Kejelasan Visual",
+          "weight": 30,
+          "keywords": ["hierarki", "spacing", "contrast", "warna", "typography", "layout"]
+        },
+        {
+          "key": "design_rationale",
+          "label": "Alasan Desain",
+          "weight": 20,
+          "keywords": ["dampak", "usability", "rekomendasi", "masalah", "tujuan"]
+        },
+        {
+          "key": "design_evidence",
+          "label": "Bukti Desain",
+          "weight": 15,
+          "keywords": ["figma", "screenshot", "link", "wireframe", "dokumen"]
+        }
+      ]
+    },
+    "soc_analyst": {
+      "label": "SOC Analyst",
+      "score_format": [
+        {
+          "key": "analysis_accuracy",
+          "label": "Akurasi Analisis",
+          "weight": 40,
+          "keywords": ["ip", "port", "timestamp", "failed", "permission", "log", "indikasi"]
+        },
+        {
+          "key": "evidence_collection",
+          "label": "Bukti Investigasi",
+          "weight": 30,
+          "keywords": ["screenshot", "terminal", "command", "ping", "nslookup", "netstat", "ss"]
+        },
+        {
+          "key": "risk_response",
+          "label": "Respons Risiko",
+          "weight": 20,
+          "keywords": ["risiko", "rekomendasi", "tindakan", "mencurigakan", "triage"]
+        },
+        {
+          "key": "documentation",
+          "label": "Dokumentasi",
+          "weight": 10,
+          "keywords": ["catatan", "jelaskan", "hasil", "laporan"]
+        }
+      ]
+    },
+    "machine_learning_engineer": {
+      "label": "Machine Learning Engineer",
+      "score_format": [
+        {
+          "key": "data_pipeline",
+          "label": "Data Pipeline",
+          "weight": 30,
+          "keywords": ["dataset", "preprocessing", "clean", "token", "input", "output"]
+        },
+        {
+          "key": "model_evaluation",
+          "label": "Evaluasi Model",
+          "weight": 30,
+          "keywords": ["model", "tf-idf", "logistic", "accuracy", "classification", "metric"]
+        },
+        {
+          "key": "reproducibility",
+          "label": "Reproducibility",
+          "weight": 25,
+          "keywords": ["notebook", "script", "run", "github", "log", "jsonl"]
+        },
+        {
+          "key": "error_analysis",
+          "label": "Error Analysis",
+          "weight": 15,
+          "keywords": ["error", "fallback", "confidence", "monitoring", "review"]
+        }
+      ]
+    }
+  }
+}

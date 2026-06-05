@@ -1,0 +1,18 @@
+{
+  "labels": [
+    "beginner_lost",
+    "confidence_issue",
+    "direction_confused",
+    "overwhelmed"
+  ],
+  "label_to_id": {
+    "beginner_lost": 0,
+    "confidence_issue": 1,
+    "direction_confused": 2,
+    "overwhelmed": 3
+  },
+  "model_type": "tensorflow_functional_api",
+  "data_path": "/Users/macbookpro/testing/Vscode/Compana-AI:ML/ai-ml/data/labels/dataset_pretext.csv",
+  "text_col": "pretext",
+  "label_col": "problem_category"
+}

@@ -1,0 +1,19 @@
+keahlian,skill_id,aliases
+JavaScript,js,javascript;js
+React,react,react;react.js;reactjs
+HTML,html,html
+CSS,css,css;scss;sass
+Vue.js,vue,vue;vue.js
+Angular,angular,angular;angularjs
+Python,python,python
+Java,java,java
+Node.js,node,node;nodejs;node.js
+SQL,sql,sql
+Docker,docker,docker
+SIEM,siem,siem
+Linux,linux,linux
+Forensic,forensic,forensic;forensics
+Penetration Testing,pentest,penetration;pentest;penetration testing
+Pandas,pandas,pandas
+Tableau,tableau,tableau
+Power BI,powerbi,powerbi;power bi
